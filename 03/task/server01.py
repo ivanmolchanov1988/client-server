@@ -31,6 +31,7 @@ if __name__ == '__main__':
     print(f'слушаем {namespace.port} порт')
     s.listen(5)
 
+
     while True:
         client, addr = s.accept()   # Принять запрос на соединение
         data = client.recv(1024)
