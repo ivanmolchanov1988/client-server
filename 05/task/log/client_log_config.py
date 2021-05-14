@@ -21,4 +21,3 @@ console = logging.StreamHandler()
 console.setLevel(logging.DEBUG)
 console.setFormatter(formatter)
 logger.addHandler(console)
-
