@@ -1,0 +1,8 @@
+INFO       2021-05-13 20:04:11,234 Email was sent to the username: username
+INFO       2021-05-13 20:05:08,723 Email was sent to the username: username
+INFO       2021-05-13 20:05:44,317 Email was sent to the username: username
+INFO       2021-05-13 20:12:50,183 Email was sent to the username: username
+INFO       2021-05-13 20:14:46,766 Email was sent to the username: username
+INFO       2021-05-13 20:27:30,713 test 1, Ivan
+CRITICAL   2021-05-13 20:27:30,714 Can't connect www.pp.org at port 80
+CRITICAL   2021-05-14 16:48:46,685 Orhr! Kernel panic!
