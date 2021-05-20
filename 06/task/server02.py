@@ -131,7 +131,6 @@ class Server:
         client.send(pickle.dumps(response))
         self.logger.debug(f'Отправлено сообщение клиенту:\n{response}')
 
-
 def main():
     logger = logging.getLogger('server_log')
     logger.debug(f'Запуск server02.py')

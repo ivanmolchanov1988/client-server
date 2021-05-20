@@ -85,7 +85,6 @@ class Client:
         self.logger.debug(f'Получено сообщение от сервера: \n{response_dict}')
         # self.oSocket.close()
 
-
 def main():
     logger = logging.getLogger('client_log')
     logger.debug(f'Запуск client02.py')
