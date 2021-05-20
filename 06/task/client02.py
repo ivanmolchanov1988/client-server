@@ -86,8 +86,6 @@ class Client:
         # self.oSocket.close()
 
 
-
-
 def main():
     logger = logging.getLogger('client_log')
     logger.debug(f'Запуск client02.py')

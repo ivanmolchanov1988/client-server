@@ -16,7 +16,9 @@ logger.addHandler(fh)
 logger.setLevel(logging.INFO)
 logger.setLevel(logging.DEBUG)
 
+
 ### GO ###
+
 #logger.info('Тестовый запуск логирования')
 console = logging.StreamHandler()
 console.setLevel(logging.DEBUG)
