@@ -1,0 +1,27 @@
+2021-05-14 22:03:57,433    DEBUG ---> Отправлено сообщение серверу: 
+{'action': 'authenticate', 'time': '<unix timestamp>', 'user': {'account_name': 'IVAN', 'passwod': 'password000'}}   
+2021-05-14 22:03:57,433    DEBUG ---> Получено сообщение от сервера: 
+{'responce': 200, 'alert': 'Привет от Сервера!'}   
+2021-05-14 22:10:30,211    DEBUG ---> Отправлено сообщение серверу: 
+{'action': 'authenticate', 'time': '<unix timestamp>', 'user': {'account_name': 'IVAN', 'passwod': 'password000'}}   
+2021-05-14 22:10:30,212    DEBUG ---> Получено сообщение от сервера: 
+{'responce': 200, 'alert': 'Привет от Сервера!'}   
+2021-05-14 22:12:25,570    DEBUG ---> Отправлено сообщение серверу: 
+{'action': 'authenticate', 'time': '<unix timestamp>', 'user': {'account_name': 'IVAN', 'passwod': 'password000'}}   
+2021-05-14 22:12:25,571    DEBUG ---> Получено сообщение от сервера: 
+{'responce': 200, 'alert': 'Привет от Сервера!'}   
+2021-05-14 22:13:28,925    DEBUG ---> Отправлено сообщение серверу: 
+{'action': 'authenticate', 'time': '<unix timestamp>', 'user': {'account_name': 'IVAN', 'passwod': 'password000'}}   
+2021-05-14 22:13:28,926    DEBUG ---> Получено сообщение от сервера: 
+{'responce': 200, 'alert': 'Привет от Сервера!'}   
+2021-05-14 22:13:28,926    ERROR ---> division by zero   
+2021-05-14 22:18:29,885    DEBUG ---> Отправлено сообщение серверу: 
+{'action': 'authenticate', 'time': '<unix timestamp>', 'user': {'account_name': 'IVAN', 'passwod': 'password000'}}   
+2021-05-14 22:18:29,885    DEBUG ---> Получено сообщение от сервера: 
+{'responce': 200, 'alert': 'Привет от Сервера!'}   
+2021-05-14 22:18:29,885    ERROR ---> division by zero   
+2021-05-14 22:20:10,681    DEBUG ---> Отправлено сообщение серверу: 
+{'action': 'authenticate', 'time': '<unix timestamp>', 'user': {'account_name': 'IVAN', 'passwod': 'password000'}}   
+2021-05-14 22:20:10,681    DEBUG ---> Получено сообщение от сервера: 
+{'responce': 200, 'alert': 'Привет от Сервера!'}   
+2021-05-14 22:20:10,682    ERROR ---> division by zero   

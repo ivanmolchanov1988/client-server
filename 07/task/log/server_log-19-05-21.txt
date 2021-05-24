@@ -1,0 +1,388 @@
+2021-05-19 12:32:55,064    DEBUG ---> слушаем 7777 порт   
+2021-05-19 12:34:48,520    DEBUG ---> Получено сообщение от клиента:
+{'action': 'authenticate', 'time': '<unix timestamp>', 'user': {'account_name': 'IVAN', 'passwod': 'password000'}}   
+2021-05-19 12:34:48,520    DEBUG ---> Отправлено сообщение клиенту:
+{'responce': 200, 'alert': 'Привет от Сервера!'}   
+2021-05-19 15:43:46,070    DEBUG ---> Запуск server02.py   
+2021-05-19 15:43:46,071    DEBUG ---> Создаём экземпляр Server   
+2021-05-19 15:44:10,825    DEBUG ---> Получено сообщение от клиента:
+{'action': 'authenticate', 'time': '<unix timestamp>', 'user': {'account_name': 'IVAN', 'passwod': 'password000'}}   
+2021-05-19 15:44:10,826    ERROR ---> module 'log' has no attribute 'debug'   
+2021-05-19 15:45:20,062    DEBUG ---> Запуск server02.py   
+2021-05-19 15:45:20,064    DEBUG ---> Создаём экземпляр Server   
+2021-05-19 15:45:29,560    DEBUG ---> Получено сообщение от клиента:
+{'action': 'authenticate', 'time': '<unix timestamp>', 'user': {'account_name': 'IVAN', 'passwod': 'password000'}}   
+2021-05-19 15:45:29,560    DEBUG ---> Отправлено сообщение клиенту:
+{'responce': 200, 'alert': 'Привет от Сервера!'}   
+2021-05-19 15:46:02,912    DEBUG ---> Получено сообщение от клиента:
+{'action': 'authenticate', 'time': '<unix timestamp>', 'user': {'account_name': 'IVAN', 'passwod': 'password000'}}   
+2021-05-19 15:46:02,913    DEBUG ---> Отправлено сообщение клиенту:
+{'responce': 200, 'alert': 'Привет от Сервера!'}   
+2021-05-19 15:46:07,963    DEBUG ---> Получено сообщение от клиента:
+{'action': 'authenticate', 'time': '<unix timestamp>', 'user': {'account_name': 'IVAN', 'passwod': 'password000'}}   
+2021-05-19 15:46:07,963    DEBUG ---> Отправлено сообщение клиенту:
+{'responce': 200, 'alert': 'Привет от Сервера!'}   
+2021-05-19 15:46:08,271    DEBUG ---> Получено сообщение от клиента:
+{'action': 'authenticate', 'time': '<unix timestamp>', 'user': {'account_name': 'IVAN', 'passwod': 'password000'}}   
+2021-05-19 15:46:08,272    DEBUG ---> Отправлено сообщение клиенту:
+{'responce': 200, 'alert': 'Привет от Сервера!'}   
+2021-05-19 15:46:12,805    DEBUG ---> Получено сообщение от клиента:
+{'action': 'authenticate', 'time': '<unix timestamp>', 'user': {'account_name': 'IVAN', 'passwod': 'password000'}}   
+2021-05-19 15:46:12,805    DEBUG ---> Отправлено сообщение клиенту:
+{'responce': 200, 'alert': 'Привет от Сервера!'}   
+2021-05-19 15:46:13,119    DEBUG ---> Получено сообщение от клиента:
+{'action': 'authenticate', 'time': '<unix timestamp>', 'user': {'account_name': 'IVAN', 'passwod': 'password000'}}   
+2021-05-19 15:46:13,119    DEBUG ---> Отправлено сообщение клиенту:
+{'responce': 200, 'alert': 'Привет от Сервера!'}   
+2021-05-19 15:46:13,404    DEBUG ---> Получено сообщение от клиента:
+{'action': 'authenticate', 'time': '<unix timestamp>', 'user': {'account_name': 'IVAN', 'passwod': 'password000'}}   
+2021-05-19 15:46:13,404    DEBUG ---> Отправлено сообщение клиенту:
+{'responce': 200, 'alert': 'Привет от Сервера!'}   
+2021-05-19 15:46:14,362    DEBUG ---> Получено сообщение от клиента:
+{'action': 'authenticate', 'time': '<unix timestamp>', 'user': {'account_name': 'IVAN', 'passwod': 'password000'}}   
+2021-05-19 15:46:14,363    DEBUG ---> Отправлено сообщение клиенту:
+{'responce': 200, 'alert': 'Привет от Сервера!'}   
+2021-05-19 16:13:37,031    DEBUG ---> Запуск server02.py   
+2021-05-19 16:13:37,032    DEBUG ---> Создаём экземпляр Server   
+2021-05-19 16:13:46,125    DEBUG ---> Клиент просит подключения:
+{'action': 'connect', 'time': '1621430026.1253312', 'alert': 'Please connect'}   
+2021-05-19 16:13:46,125    DEBUG ---> Отправлено сообщение клиенту:
+{'action': 'connect', 'time': '1621430026.1256888', 'responce': 200, 'alert': 'Im ready to connect'}   
+2021-05-19 16:15:14,771    DEBUG ---> Клиент просит подключения:
+{'action': 'connect', 'time': '1621430114.7715795', 'alert': 'Please connect'}   
+2021-05-19 16:15:14,771    DEBUG ---> Отправлено сообщение клиенту:
+{'action': 'connect', 'time': '1621430114.771888', 'responce': 200, 'alert': 'Im ready to connect'}   
+2021-05-19 16:23:24,774    DEBUG ---> Клиент просит подключения:
+{'action': 'connect', 'time': '1621430604.7744958', 'alert': 'Please connect'}   
+2021-05-19 16:23:24,774    DEBUG ---> Отправлено сообщение клиенту:
+{'action': 'connect', 'time': '1621430604.774776', 'responce': 200, 'alert': 'Im ready to connect'}   
+2021-05-19 16:24:28,260    DEBUG ---> Клиент просит подключения:
+{'action': 'connect', 'time': '1621430668.2602198', 'alert': 'Please connect'}   
+2021-05-19 16:24:28,260    DEBUG ---> Отправлено сообщение клиенту:
+{'action': 'connect', 'time': '1621430668.260514', 'responce': 200, 'alert': 'Im ready to connect'}   
+2021-05-19 17:32:48,922    DEBUG ---> Клиент просит подключения:
+{'action': 'connect', 'time': '1621434768.9224544', 'alert': 'Please connect'}   
+2021-05-19 17:32:48,922    DEBUG ---> Отправлено сообщение клиенту:
+{'action': 'connect', 'time': '1621434768.9227195', 'responce': 200, 'alert': 'Im ready to connect'}   
+2021-05-19 19:03:58,891    DEBUG ---> Клиент просит подключения:
+{'action': 'connect', 'time': '1621440238.8913825', 'alert': 'Please connect'}   
+2021-05-19 19:03:58,891    DEBUG ---> Отправлено сообщение клиенту:
+{'action': 'connect', 'time': '1621440238.8916826', 'responce': 200, 'alert': 'Im ready to connect'}   
+2021-05-19 19:10:14,020    DEBUG ---> Клиент просит подключения:
+{'action': 'connect', 'time': '1621440614.0200999', 'alert': 'Please connect'}   
+2021-05-19 19:10:14,020    DEBUG ---> Отправлено сообщение клиенту:
+{'action': 'connect', 'time': '1621440614.020401', 'responce': 200, 'alert': 'Im ready to connect'}   
+2021-05-19 19:11:25,563    DEBUG ---> Клиент просит подключения:
+{'action': 'authorization', 'time': '1621440685.5632322', 'user': {'login': 'Ivan', 'pass': 'Ivan123'}}   
+2021-05-19 19:11:25,563    DEBUG ---> Отправлено сообщение клиенту:
+{'action': 'connect', 'time': '1621440685.5635402', 'responce': 200, 'alert': 'Im ready to connect'}   
+2021-05-19 19:12:51,752    DEBUG ---> Клиент просит подключения:
+{'action': 'authorization', 'time': '1621440771.752754', 'user': {'login': 'Ivan', 'pass': 'Ivan123'}}   
+2021-05-19 19:12:51,753    DEBUG ---> Отправлено сообщение клиенту:
+{'action': 'connect', 'time': '1621440771.753057', 'responce': 200, 'alert': 'Im ready to connect'}   
+2021-05-19 19:13:06,455    DEBUG ---> Клиент просит подключения:
+{'action': 'authorization', 'time': '1621440786.4551284', 'user': {'login': 'Ivan', 'pass': 'Ivan123'}}   
+2021-05-19 19:13:06,455    DEBUG ---> Отправлено сообщение клиенту:
+{'action': 'connect', 'time': '1621440786.455443', 'responce': 200, 'alert': 'Im ready to connect'}   
+2021-05-19 19:14:01,308    DEBUG ---> Клиент просит подключения:
+{'action': 'authorization', 'time': '1621440841.3087928', 'user': {'login': 'Ivan', 'pass': 'Ivan123'}}   
+2021-05-19 19:14:01,309    DEBUG ---> Отправлено сообщение клиенту:
+{'action': 'connect', 'time': '1621440841.3091273', 'responce': 200, 'alert': 'Im ready to connect'}   
+2021-05-19 19:14:05,176    DEBUG ---> Клиент просит подключения:
+{'action': 'authorization', 'time': '1621440845.1768327', 'user': {'login': 'Ivan', 'pass': 'Ivan123'}}   
+2021-05-19 19:14:05,177    DEBUG ---> Отправлено сообщение клиенту:
+{'action': 'connect', 'time': '1621440845.1770997', 'responce': 200, 'alert': 'Im ready to connect'}   
+2021-05-19 19:14:32,991    DEBUG ---> Запуск server02.py   
+2021-05-19 19:14:32,992    DEBUG ---> Создаём экземпляр Server   
+2021-05-19 19:14:32,992    ERROR ---> [Errno 98] Address already in use   
+2021-05-19 19:14:37,611    DEBUG ---> Запуск server02.py   
+2021-05-19 19:14:37,612    DEBUG ---> Создаём экземпляр Server   
+2021-05-19 19:14:37,615    ERROR ---> [Errno 98] Address already in use   
+2021-05-19 19:14:42,816    DEBUG ---> Запуск server02.py   
+2021-05-19 19:14:42,817    DEBUG ---> Создаём экземпляр Server   
+2021-05-19 19:14:42,820    ERROR ---> [Errno 98] Address already in use   
+2021-05-19 19:14:57,887    DEBUG ---> Запуск server02.py   
+2021-05-19 19:14:57,889    DEBUG ---> Создаём экземпляр Server   
+2021-05-19 19:14:57,889    ERROR ---> [Errno 98] Address already in use   
+2021-05-19 19:15:00,873    DEBUG ---> Запуск server02.py   
+2021-05-19 19:15:00,874    DEBUG ---> Создаём экземпляр Server   
+2021-05-19 19:15:00,877    ERROR ---> [Errno 98] Address already in use   
+2021-05-19 19:15:02,649    DEBUG ---> Запуск server02.py   
+2021-05-19 19:15:02,651    DEBUG ---> Создаём экземпляр Server   
+2021-05-19 19:15:02,651    ERROR ---> [Errno 98] Address already in use   
+2021-05-19 19:15:03,728    DEBUG ---> Запуск server02.py   
+2021-05-19 19:15:03,729    DEBUG ---> Создаём экземпляр Server   
+2021-05-19 19:15:03,730    ERROR ---> [Errno 98] Address already in use   
+2021-05-19 19:15:05,164    DEBUG ---> Запуск server02.py   
+2021-05-19 19:15:05,165    DEBUG ---> Создаём экземпляр Server   
+2021-05-19 19:15:05,165    ERROR ---> [Errno 98] Address already in use   
+2021-05-19 19:15:06,824    DEBUG ---> Запуск server02.py   
+2021-05-19 19:15:06,826    DEBUG ---> Создаём экземпляр Server   
+2021-05-19 19:15:13,595    ERROR ---> a bytes-like object is required, not 'dict'   
+2021-05-19 19:16:17,512    DEBUG ---> Запуск server02.py   
+2021-05-19 19:16:17,513    DEBUG ---> Создаём экземпляр Server   
+2021-05-19 19:16:26,124    ERROR ---> a bytes-like object is required, not 'dict'   
+2021-05-19 19:17:02,098    DEBUG ---> Запуск server02.py   
+2021-05-19 19:17:02,099    DEBUG ---> Создаём экземпляр Server   
+2021-05-19 19:17:02,099    ERROR ---> [Errno 98] Address already in use   
+2021-05-19 19:17:04,041    DEBUG ---> Запуск server02.py   
+2021-05-19 19:17:04,042    DEBUG ---> Создаём экземпляр Server   
+2021-05-19 19:17:04,043    ERROR ---> [Errno 98] Address already in use   
+2021-05-19 19:17:04,974    DEBUG ---> Запуск server02.py   
+2021-05-19 19:17:04,975    DEBUG ---> Создаём экземпляр Server   
+2021-05-19 19:17:04,976    ERROR ---> [Errno 98] Address already in use   
+2021-05-19 19:17:06,585    DEBUG ---> Запуск server02.py   
+2021-05-19 19:17:06,586    DEBUG ---> Создаём экземпляр Server   
+2021-05-19 19:17:06,586    ERROR ---> [Errno 98] Address already in use   
+2021-05-19 19:17:07,426    DEBUG ---> Запуск server02.py   
+2021-05-19 19:17:07,427    DEBUG ---> Создаём экземпляр Server   
+2021-05-19 19:17:07,427    ERROR ---> [Errno 98] Address already in use   
+2021-05-19 19:17:08,056    DEBUG ---> Запуск server02.py   
+2021-05-19 19:17:08,058    DEBUG ---> Создаём экземпляр Server   
+2021-05-19 19:17:08,058    ERROR ---> [Errno 98] Address already in use   
+2021-05-19 19:17:08,609    DEBUG ---> Запуск server02.py   
+2021-05-19 19:17:08,611    DEBUG ---> Создаём экземпляр Server   
+2021-05-19 19:17:08,611    ERROR ---> [Errno 98] Address already in use   
+2021-05-19 19:17:09,093    DEBUG ---> Запуск server02.py   
+2021-05-19 19:17:09,094    DEBUG ---> Создаём экземпляр Server   
+2021-05-19 19:17:09,094    ERROR ---> [Errno 98] Address already in use   
+2021-05-19 19:17:09,590    DEBUG ---> Запуск server02.py   
+2021-05-19 19:17:09,592    DEBUG ---> Создаём экземпляр Server   
+2021-05-19 19:17:09,593    ERROR ---> [Errno 98] Address already in use   
+2021-05-19 19:17:10,053    DEBUG ---> Запуск server02.py   
+2021-05-19 19:17:10,055    DEBUG ---> Создаём экземпляр Server   
+2021-05-19 19:17:10,055    ERROR ---> [Errno 98] Address already in use   
+2021-05-19 19:17:10,526    DEBUG ---> Запуск server02.py   
+2021-05-19 19:17:10,527    DEBUG ---> Создаём экземпляр Server   
+2021-05-19 19:17:10,528    ERROR ---> [Errno 98] Address already in use   
+2021-05-19 19:17:10,940    DEBUG ---> Запуск server02.py   
+2021-05-19 19:17:10,941    DEBUG ---> Создаём экземпляр Server   
+2021-05-19 19:17:10,941    ERROR ---> [Errno 98] Address already in use   
+2021-05-19 19:17:11,348    DEBUG ---> Запуск server02.py   
+2021-05-19 19:17:11,349    DEBUG ---> Создаём экземпляр Server   
+2021-05-19 19:17:11,349    ERROR ---> [Errno 98] Address already in use   
+2021-05-19 19:17:11,750    DEBUG ---> Запуск server02.py   
+2021-05-19 19:17:11,752    DEBUG ---> Создаём экземпляр Server   
+2021-05-19 19:17:11,752    ERROR ---> [Errno 98] Address already in use   
+2021-05-19 19:17:12,108    DEBUG ---> Запуск server02.py   
+2021-05-19 19:17:12,110    DEBUG ---> Создаём экземпляр Server   
+2021-05-19 19:17:12,110    ERROR ---> [Errno 98] Address already in use   
+2021-05-19 19:17:12,377    DEBUG ---> Запуск server02.py   
+2021-05-19 19:17:12,379    DEBUG ---> Создаём экземпляр Server   
+2021-05-19 19:17:12,379    ERROR ---> [Errno 98] Address already in use   
+2021-05-19 19:17:12,629    DEBUG ---> Запуск server02.py   
+2021-05-19 19:17:12,630    DEBUG ---> Создаём экземпляр Server   
+2021-05-19 19:17:12,631    ERROR ---> [Errno 98] Address already in use   
+2021-05-19 19:17:12,882    DEBUG ---> Запуск server02.py   
+2021-05-19 19:17:12,883    DEBUG ---> Создаём экземпляр Server   
+2021-05-19 19:17:12,886    ERROR ---> [Errno 98] Address already in use   
+2021-05-19 19:17:13,127    DEBUG ---> Запуск server02.py   
+2021-05-19 19:17:13,128    DEBUG ---> Создаём экземпляр Server   
+2021-05-19 19:17:13,128    ERROR ---> [Errno 98] Address already in use   
+2021-05-19 19:17:13,388    DEBUG ---> Запуск server02.py   
+2021-05-19 19:17:13,389    DEBUG ---> Создаём экземпляр Server   
+2021-05-19 19:17:13,390    ERROR ---> [Errno 98] Address already in use   
+2021-05-19 19:17:13,658    DEBUG ---> Запуск server02.py   
+2021-05-19 19:17:13,659    DEBUG ---> Создаём экземпляр Server   
+2021-05-19 19:17:13,660    ERROR ---> [Errno 98] Address already in use   
+2021-05-19 19:17:13,907    DEBUG ---> Запуск server02.py   
+2021-05-19 19:17:13,909    DEBUG ---> Создаём экземпляр Server   
+2021-05-19 19:17:13,909    ERROR ---> [Errno 98] Address already in use   
+2021-05-19 19:17:14,199    DEBUG ---> Запуск server02.py   
+2021-05-19 19:17:14,201    DEBUG ---> Создаём экземпляр Server   
+2021-05-19 19:17:14,201    ERROR ---> [Errno 98] Address already in use   
+2021-05-19 19:17:14,950    DEBUG ---> Запуск server02.py   
+2021-05-19 19:17:14,951    DEBUG ---> Создаём экземпляр Server   
+2021-05-19 19:17:14,952    ERROR ---> [Errno 98] Address already in use   
+2021-05-19 19:17:15,649    DEBUG ---> Запуск server02.py   
+2021-05-19 19:17:15,651    DEBUG ---> Создаём экземпляр Server   
+2021-05-19 19:17:15,651    ERROR ---> [Errno 98] Address already in use   
+2021-05-19 19:17:16,171    DEBUG ---> Запуск server02.py   
+2021-05-19 19:17:16,172    DEBUG ---> Создаём экземпляр Server   
+2021-05-19 19:17:16,172    ERROR ---> [Errno 98] Address already in use   
+2021-05-19 19:17:16,702    DEBUG ---> Запуск server02.py   
+2021-05-19 19:17:16,704    DEBUG ---> Создаём экземпляр Server   
+2021-05-19 19:17:16,704    ERROR ---> [Errno 98] Address already in use   
+2021-05-19 19:17:17,280    DEBUG ---> Запуск server02.py   
+2021-05-19 19:17:17,281    DEBUG ---> Создаём экземпляр Server   
+2021-05-19 19:17:17,281    ERROR ---> [Errno 98] Address already in use   
+2021-05-19 19:17:17,837    DEBUG ---> Запуск server02.py   
+2021-05-19 19:17:17,839    DEBUG ---> Создаём экземпляр Server   
+2021-05-19 19:17:17,839    ERROR ---> [Errno 98] Address already in use   
+2021-05-19 19:17:18,389    DEBUG ---> Запуск server02.py   
+2021-05-19 19:17:18,390    DEBUG ---> Создаём экземпляр Server   
+2021-05-19 19:17:18,390    ERROR ---> [Errno 98] Address already in use   
+2021-05-19 19:17:18,893    DEBUG ---> Запуск server02.py   
+2021-05-19 19:17:18,895    DEBUG ---> Создаём экземпляр Server   
+2021-05-19 19:17:18,895    ERROR ---> [Errno 98] Address already in use   
+2021-05-19 19:17:19,448    DEBUG ---> Запуск server02.py   
+2021-05-19 19:17:19,449    DEBUG ---> Создаём экземпляр Server   
+2021-05-19 19:17:19,449    ERROR ---> [Errno 98] Address already in use   
+2021-05-19 19:17:19,992    DEBUG ---> Запуск server02.py   
+2021-05-19 19:17:19,993    DEBUG ---> Создаём экземпляр Server   
+2021-05-19 19:17:19,993    ERROR ---> [Errno 98] Address already in use   
+2021-05-19 19:17:20,530    DEBUG ---> Запуск server02.py   
+2021-05-19 19:17:20,531    DEBUG ---> Создаём экземпляр Server   
+2021-05-19 19:17:20,532    ERROR ---> [Errno 98] Address already in use   
+2021-05-19 19:17:21,045    DEBUG ---> Запуск server02.py   
+2021-05-19 19:17:21,046    DEBUG ---> Создаём экземпляр Server   
+2021-05-19 19:17:21,047    ERROR ---> [Errno 98] Address already in use   
+2021-05-19 19:17:21,566    DEBUG ---> Запуск server02.py   
+2021-05-19 19:17:21,567    DEBUG ---> Создаём экземпляр Server   
+2021-05-19 19:17:21,568    ERROR ---> [Errno 98] Address already in use   
+2021-05-19 19:17:22,105    DEBUG ---> Запуск server02.py   
+2021-05-19 19:17:22,106    DEBUG ---> Создаём экземпляр Server   
+2021-05-19 19:17:22,106    ERROR ---> [Errno 98] Address already in use   
+2021-05-19 19:17:27,056    DEBUG ---> Запуск server02.py   
+2021-05-19 19:17:27,057    DEBUG ---> Создаём экземпляр Server   
+2021-05-19 19:17:27,058    ERROR ---> [Errno 98] Address already in use   
+2021-05-19 19:17:29,119    DEBUG ---> Запуск server02.py   
+2021-05-19 19:17:29,120    DEBUG ---> Создаём экземпляр Server   
+2021-05-19 19:17:34,957    ERROR ---> a bytes-like object is required, not 'dict'   
+2021-05-19 19:18:46,939    DEBUG ---> Запуск server02.py   
+2021-05-19 19:18:46,940    DEBUG ---> Создаём экземпляр Server   
+2021-05-19 19:18:46,940    DEBUG ---> 1   
+2021-05-19 19:18:56,538    DEBUG ---> 2   
+2021-05-19 19:18:56,538    DEBUG ---> 3   
+2021-05-19 19:18:56,538    DEBUG ---> 4   
+2021-05-19 19:18:56,538    ERROR ---> a bytes-like object is required, not 'dict'   
+2021-05-19 19:19:46,139    DEBUG ---> Запуск server02.py   
+2021-05-19 19:19:46,141    DEBUG ---> Создаём экземпляр Server   
+2021-05-19 19:19:46,141    ERROR ---> [Errno 98] Address already in use   
+2021-05-19 19:19:50,076    DEBUG ---> Запуск server02.py   
+2021-05-19 19:19:50,077    DEBUG ---> Создаём экземпляр Server   
+2021-05-19 19:19:50,077    ERROR ---> [Errno 98] Address already in use   
+2021-05-19 19:19:54,025    DEBUG ---> Запуск server02.py   
+2021-05-19 19:19:54,026    DEBUG ---> Создаём экземпляр Server   
+2021-05-19 19:19:54,026    ERROR ---> [Errno 98] Address already in use   
+2021-05-19 19:19:57,547    DEBUG ---> Запуск server02.py   
+2021-05-19 19:19:57,548    DEBUG ---> Создаём экземпляр Server   
+2021-05-19 19:20:04,091    DEBUG ---> connect   
+2021-05-19 19:20:04,091    ERROR ---> a bytes-like object is required, not 'dict'   
+2021-05-19 19:21:44,450    DEBUG ---> Запуск server02.py   
+2021-05-19 19:21:44,451    DEBUG ---> Создаём экземпляр Server   
+2021-05-19 19:21:47,531    DEBUG ---> connect   
+2021-05-19 19:21:47,532    DEBUG ---> 1   
+2021-05-19 19:21:47,532    ERROR ---> a bytes-like object is required, not 'dict'   
+2021-05-19 19:22:31,846    DEBUG ---> Запуск server02.py   
+2021-05-19 19:22:31,847    DEBUG ---> Создаём экземпляр Server   
+2021-05-19 19:22:31,848    ERROR ---> [Errno 98] Address already in use   
+2021-05-19 19:22:36,721    DEBUG ---> Запуск server02.py   
+2021-05-19 19:22:36,722    DEBUG ---> Создаём экземпляр Server   
+2021-05-19 19:22:36,722    ERROR ---> [Errno 98] Address already in use   
+2021-05-19 19:22:39,700    DEBUG ---> Запуск server02.py   
+2021-05-19 19:22:39,701    DEBUG ---> Создаём экземпляр Server   
+2021-05-19 19:22:39,701    ERROR ---> [Errno 98] Address already in use   
+2021-05-19 19:22:42,690    DEBUG ---> Запуск server02.py   
+2021-05-19 19:22:42,692    DEBUG ---> Создаём экземпляр Server   
+2021-05-19 19:22:42,692    ERROR ---> [Errno 98] Address already in use   
+2021-05-19 19:22:45,386    DEBUG ---> Запуск server02.py   
+2021-05-19 19:22:45,387    DEBUG ---> Создаём экземпляр Server   
+2021-05-19 19:22:45,388    ERROR ---> [Errno 98] Address already in use   
+2021-05-19 19:22:48,575    DEBUG ---> Запуск server02.py   
+2021-05-19 19:22:48,576    DEBUG ---> Создаём экземпляр Server   
+2021-05-19 19:22:48,576    ERROR ---> [Errno 98] Address already in use   
+2021-05-19 19:22:50,991    DEBUG ---> Запуск server02.py   
+2021-05-19 19:22:50,992    DEBUG ---> Создаём экземпляр Server   
+2021-05-19 19:22:55,255    DEBUG ---> Клиент просит подключения:
+{'action': 'connect', 'time': '1621441375.2552414', 'alert': 'Please connect'}   
+2021-05-19 19:22:55,255    ERROR ---> name 'responce' is not defined   
+2021-05-19 19:23:28,722    DEBUG ---> Запуск server02.py   
+2021-05-19 19:23:28,723    DEBUG ---> Создаём экземпляр Server   
+2021-05-19 19:23:28,724    ERROR ---> [Errno 98] Address already in use   
+2021-05-19 19:23:31,833    DEBUG ---> Запуск server02.py   
+2021-05-19 19:23:31,835    DEBUG ---> Создаём экземпляр Server   
+2021-05-19 19:23:31,835    ERROR ---> [Errno 98] Address already in use   
+2021-05-19 19:23:35,496    DEBUG ---> Запуск server02.py   
+2021-05-19 19:23:35,497    DEBUG ---> Создаём экземпляр Server   
+2021-05-19 19:23:35,497    ERROR ---> [Errno 98] Address already in use   
+2021-05-19 19:23:37,992    DEBUG ---> Запуск server02.py   
+2021-05-19 19:23:37,994    DEBUG ---> Создаём экземпляр Server   
+2021-05-19 19:23:37,994    ERROR ---> [Errno 98] Address already in use   
+2021-05-19 19:23:41,287    DEBUG ---> Запуск server02.py   
+2021-05-19 19:23:41,288    DEBUG ---> Создаём экземпляр Server   
+2021-05-19 19:23:41,289    ERROR ---> [Errno 98] Address already in use   
+2021-05-19 19:23:47,829    DEBUG ---> Запуск server02.py   
+2021-05-19 19:23:47,830    DEBUG ---> Создаём экземпляр Server   
+2021-05-19 19:23:47,831    ERROR ---> [Errno 98] Address already in use   
+2021-05-19 19:23:49,385    DEBUG ---> Запуск server02.py   
+2021-05-19 19:23:49,387    DEBUG ---> Создаём экземпляр Server   
+2021-05-19 19:23:49,390    ERROR ---> [Errno 98] Address already in use   
+2021-05-19 19:23:50,195    DEBUG ---> Запуск server02.py   
+2021-05-19 19:23:50,196    DEBUG ---> Создаём экземпляр Server   
+2021-05-19 19:23:50,196    ERROR ---> [Errno 98] Address already in use   
+2021-05-19 19:23:50,962    DEBUG ---> Запуск server02.py   
+2021-05-19 19:23:50,964    DEBUG ---> Создаём экземпляр Server   
+2021-05-19 19:23:50,964    ERROR ---> [Errno 98] Address already in use   
+2021-05-19 19:23:51,672    DEBUG ---> Запуск server02.py   
+2021-05-19 19:23:51,673    DEBUG ---> Создаём экземпляр Server   
+2021-05-19 19:23:51,673    ERROR ---> [Errno 98] Address already in use   
+2021-05-19 19:23:52,284    DEBUG ---> Запуск server02.py   
+2021-05-19 19:23:52,286    DEBUG ---> Создаём экземпляр Server   
+2021-05-19 19:23:52,286    ERROR ---> [Errno 98] Address already in use   
+2021-05-19 19:23:52,817    DEBUG ---> Запуск server02.py   
+2021-05-19 19:23:52,818    DEBUG ---> Создаём экземпляр Server   
+2021-05-19 19:23:52,818    ERROR ---> [Errno 98] Address already in use   
+2021-05-19 19:23:53,318    DEBUG ---> Запуск server02.py   
+2021-05-19 19:23:53,319    DEBUG ---> Создаём экземпляр Server   
+2021-05-19 19:23:53,319    ERROR ---> [Errno 98] Address already in use   
+2021-05-19 19:23:53,817    DEBUG ---> Запуск server02.py   
+2021-05-19 19:23:53,818    DEBUG ---> Создаём экземпляр Server   
+2021-05-19 19:23:53,819    ERROR ---> [Errno 98] Address already in use   
+2021-05-19 19:23:54,315    DEBUG ---> Запуск server02.py   
+2021-05-19 19:23:54,316    DEBUG ---> Создаём экземпляр Server   
+2021-05-19 19:23:54,317    ERROR ---> [Errno 98] Address already in use   
+2021-05-19 19:23:54,788    DEBUG ---> Запуск server02.py   
+2021-05-19 19:23:54,789    DEBUG ---> Создаём экземпляр Server   
+2021-05-19 19:23:54,789    ERROR ---> [Errno 98] Address already in use   
+2021-05-19 19:23:56,651    DEBUG ---> Запуск server02.py   
+2021-05-19 19:23:56,652    DEBUG ---> Создаём экземпляр Server   
+2021-05-19 19:23:56,652    ERROR ---> [Errno 98] Address already in use   
+2021-05-19 19:23:57,574    DEBUG ---> Запуск server02.py   
+2021-05-19 19:23:57,575    DEBUG ---> Создаём экземпляр Server   
+2021-05-19 19:24:01,404    DEBUG ---> Клиент просит подключения:
+{'action': 'connect', 'time': '1621441441.404313', 'alert': 'Please connect'}   
+2021-05-19 19:24:01,404    DEBUG ---> Отправлено сообщение клиенту:
+{'action': 'connect', 'time': '1621441437.5757258', 'response': 200, 'alert': 'Im ready to connect'}   
+2021-05-19 19:24:37,161    DEBUG ---> Клиент просит подключения:
+{'action': 'connect', 'time': '1621441477.161355', 'alert': 'Please connect'}   
+2021-05-19 19:24:37,161    DEBUG ---> Отправлено сообщение клиенту:
+{'action': 'connect', 'time': '1621441437.5757258', 'response': 200, 'alert': 'Im ready to connect'}   
+2021-05-19 19:25:11,839    DEBUG ---> Клиент пробует авторизоваться:
+{'action': 'authorization', 'time': '1621441511.839626', 'user': {'login': 'Ivan', 'pass': 'Ivan123'}}   
+2021-05-19 19:25:38,922    DEBUG ---> Клиент пробует авторизоваться:
+{'action': 'authorization', 'time': '1621441538.922656', 'user': {'login': 'Ivan', 'pass': 'Ivan123'}}   
+2021-05-19 19:30:20,666    DEBUG ---> Запуск server02.py   
+2021-05-19 19:30:20,668    DEBUG ---> Создаём экземпляр Server   
+2021-05-19 19:30:23,882    DEBUG ---> Клиент пробует авторизоваться:
+{'action': 'authorization', 'time': '1621441823.8822796', 'user': {'login': 'Ivan', 'pass': 'Ivan123'}}   
+2021-05-19 19:35:11,817    DEBUG ---> Запуск server02.py   
+2021-05-19 19:35:11,818    DEBUG ---> Создаём экземпляр Server   
+2021-05-19 19:35:15,512    DEBUG ---> Клиент пробует авторизоваться:
+{'action': 'authorization', 'time': '1621442115.5119827', 'user': {'login': 'Ivan', 'pass': 'Ivan123'}}   
+2021-05-19 19:35:15,512    DEBUG ---> Добавили нового пользователя   
+2021-05-19 19:35:15,512    ERROR ---> string indices must be integers   
+2021-05-19 19:37:13,481    DEBUG ---> Запуск server02.py   
+2021-05-19 19:37:13,483    DEBUG ---> Создаём экземпляр Server   
+2021-05-19 19:37:17,364    DEBUG ---> Клиент пробует авторизоваться:
+{'action': 'authorization', 'time': '1621442237.3640633', 'user': {'login': 'Ivan', 'pass': 'Ivan123'}}   
+2021-05-19 19:37:17,364    DEBUG ---> Добавили нового пользователя   
+2021-05-19 19:37:17,364    ERROR ---> respoceClient() takes 3 positional arguments but 4 were given   
+2021-05-19 19:39:36,327    DEBUG ---> Запуск server02.py   
+2021-05-19 19:39:36,328    DEBUG ---> Создаём экземпляр Server   
+2021-05-19 19:39:39,691    DEBUG ---> Клиент пробует авторизоваться:
+{'action': 'authorization', 'time': '1621442379.6917212', 'user': {'login': 'Ivan', 'pass': 'Ivan123'}}   
+2021-05-19 19:39:39,692    DEBUG ---> Добавили нового пользователя   
+2021-05-19 19:39:39,692    ERROR ---> respoceClient() takes 3 positional arguments but 4 were given   
+2021-05-19 19:41:41,968    DEBUG ---> Запуск server02.py   
+2021-05-19 19:41:41,970    DEBUG ---> Создаём экземпляр Server   
+2021-05-19 19:41:44,984    DEBUG ---> Клиент пробует авторизоваться:
+{'action': 'authorization', 'time': '1621442504.9844208', 'user': {'login': 'Ivan', 'pass': 'Ivan123'}}   
+2021-05-19 19:41:44,984    DEBUG ---> Добавили нового пользователя   
+2021-05-19 19:41:44,984    DEBUG ---> Отправлено сообщение клиенту:
+{'action': 'authorization', 'time': '1621442501.9702463', 'response': 200, 'alert': 'authorization OK'}   
+2021-05-19 20:00:05,802    DEBUG ---> Клиент пробует авторизоваться:
+{'action': 'authorization', 'time': '1621443605.8025937', 'user': {'login': 'Ivan', 'pass': 'Ivan123'}}   
+2021-05-19 20:00:05,802    DEBUG ---> Добавили нового пользователя   
+2021-05-19 20:00:05,803    DEBUG ---> Отправлено сообщение клиенту:
+{'action': 'authorization', 'time': '1621442501.9702463', 'response': 200, 'alert': 'authorization OK'}   
