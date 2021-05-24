@@ -1,0 +1,287 @@
+2021-05-20 11:57:08,502    DEBUG ---> Запуск client02.py   
+2021-05-20 11:57:08,504    DEBUG ---> Создаём экземпляр Client   
+2021-05-20 11:57:08,504    DEBUG ---> Отправлено сообщение серверу: 
+{'action': 'authorization', 'time': '1621501028.5044081', 'user': {'login': 'Ivan', 'pass': 'Ivan123'}}   
+2021-05-20 11:57:08,504    DEBUG ---> Получено сообщение от сервера: 
+{'action': 'authorization', 'time': '1621501019.000348', 'response': 200, 'alert': 'authorization OK'}   
+2021-05-20 12:01:05,485    DEBUG ---> Запуск client02.py   
+2021-05-20 12:01:05,486    DEBUG ---> Создаём экземпляр Client   
+2021-05-20 12:01:05,486    DEBUG ---> Отправлено сообщение серверу: 
+{'action': 'connect', 'time': '1621501265.4865015', 'alert': 'Please connect'}   
+2021-05-20 12:01:05,487    ERROR ---> Ran out of input   
+2021-05-20 12:02:09,860    DEBUG ---> Запуск client02.py   
+2021-05-20 12:02:09,861    DEBUG ---> Создаём экземпляр Client   
+2021-05-20 12:02:09,861    DEBUG ---> Отправлено сообщение серверу: 
+{'action': 'connect', 'time': '1621501329.861513', 'alert': 'Please connect'}   
+2021-05-20 12:02:09,862    ERROR ---> Ran out of input   
+2021-05-20 12:03:35,067    DEBUG ---> Запуск client02.py   
+2021-05-20 12:03:35,069    DEBUG ---> Создаём экземпляр Client   
+2021-05-20 12:03:35,069    DEBUG ---> Отправлено сообщение серверу: 
+{'action': 'connect', 'time': '1621501415.069736', 'alert': 'Please connect'}   
+2021-05-20 12:03:35,070    DEBUG ---> Получено сообщение от сервера: 
+{'action': 'connect', 'time': '1621501412.640968', 'response': 200, 'alert': 'Im ready to connect'}   
+2021-05-20 12:04:01,032    DEBUG ---> Запуск client02.py   
+2021-05-20 12:04:01,033    DEBUG ---> Создаём экземпляр Client   
+2021-05-20 12:04:01,034    DEBUG ---> Отправлено сообщение серверу: 
+{'action': 'connect', 'time': '1621501441.0340073', 'alert': 'Please connect'}   
+2021-05-20 12:04:01,034    DEBUG ---> Получено сообщение от сервера: 
+{'action': 'connect', 'time': '1621501412.640968', 'response': 200, 'alert': 'Im ready to connect'}   
+2021-05-20 12:04:01,034    ERROR ---> [Errno 9] Bad file descriptor   
+2021-05-20 12:04:59,244    DEBUG ---> Запуск client02.py   
+2021-05-20 12:04:59,245    DEBUG ---> Создаём экземпляр Client   
+2021-05-20 12:04:59,245    DEBUG ---> Отправлено сообщение серверу: 
+{'action': 'connect', 'time': '1621501499.2458394', 'alert': 'Please connect'}   
+2021-05-20 12:04:59,246    DEBUG ---> Получено сообщение от сервера: 
+{'action': 'connect', 'time': '1621501412.640968', 'response': 200, 'alert': 'Im ready to connect'}   
+2021-05-20 12:04:59,246    ERROR ---> [Errno 9] Bad file descriptor   
+2021-05-20 12:07:52,632    DEBUG ---> Запуск client02.py   
+2021-05-20 12:07:52,633    DEBUG ---> Создаём экземпляр Client   
+2021-05-20 12:07:52,633    DEBUG ---> Отправлено сообщение серверу: 
+{'action': 'authorization', 'time': '1621501672.6336586', 'user': {'login': 'Ivan', 'pass': 'Ivan123'}}   
+2021-05-20 12:07:52,634    DEBUG ---> Получено сообщение от сервера: 
+{'action': 'authorization', 'time': '1621501412.6409898', 'response': 200, 'alert': 'authorization OK'}   
+2021-05-20 13:12:35,098    DEBUG ---> Запуск client02.py   
+2021-05-20 13:12:35,099    DEBUG ---> Создаём экземпляр Client   
+2021-05-20 13:12:35,099    DEBUG ---> None   
+2021-05-20 13:12:35,100    DEBUG ---> Отправлено сообщение серверу: 
+{'action': 'connect', 'time': '1621505555.100157', 'alert': 'Please connect'}   
+2021-05-20 13:12:35,100    DEBUG ---> Получено сообщение от сервера: 
+{'action': 'connect', 'time': '1621501412.640968', 'response': 200, 'alert': 'Im ready to connect'}   
+2021-05-20 13:13:25,595    DEBUG ---> Запуск client02.py   
+2021-05-20 13:13:40,591    DEBUG ---> Запуск client02.py   
+2021-05-20 13:13:40,592    DEBUG ---> Создаём экземпляр Client   
+2021-05-20 13:13:40,592    DEBUG ---> 1   
+2021-05-20 13:13:40,593    DEBUG ---> Отправлено сообщение серверу: 
+{'action': 'connect', 'time': '1621505620.5929334', 'alert': 'Please connect'}   
+2021-05-20 13:13:40,593    DEBUG ---> Получено сообщение от сервера: 
+{'action': 'connect', 'time': '1621501412.640968', 'response': 200, 'alert': 'Im ready to connect'}   
+2021-05-20 13:14:44,316    DEBUG ---> Запуск client02.py   
+2021-05-20 13:14:44,318    DEBUG ---> Создаём экземпляр Client   
+2021-05-20 13:14:44,318    DEBUG ---> True   
+2021-05-20 13:14:44,318    DEBUG ---> Отправлено сообщение серверу: 
+{'action': 'connect', 'time': '1621505684.3184984', 'alert': 'Please connect'}   
+2021-05-20 13:14:44,318    DEBUG ---> Получено сообщение от сервера: 
+{'action': 'connect', 'time': '1621501412.640968', 'response': 200, 'alert': 'Im ready to connect'}   
+2021-05-20 13:14:50,985    DEBUG ---> Запуск client02.py   
+2021-05-20 13:14:50,987    DEBUG ---> Создаём экземпляр Client   
+2021-05-20 13:14:50,987    DEBUG ---> 1   
+2021-05-20 13:14:50,987    DEBUG ---> Отправлено сообщение серверу: 
+{'action': 'connect', 'time': '1621505690.9876378', 'alert': 'Please connect'}   
+2021-05-20 13:14:50,988    DEBUG ---> Получено сообщение от сервера: 
+{'action': 'connect', 'time': '1621501412.640968', 'response': 200, 'alert': 'Im ready to connect'}   
+2021-05-20 13:17:58,918    DEBUG ---> Запуск client02.py   
+2021-05-20 13:18:15,262    DEBUG ---> Запуск client02.py   
+2021-05-20 13:18:15,263    DEBUG ---> Создаём экземпляр Client   
+2021-05-20 13:18:15,264    DEBUG ---> Не выбран параметр   
+2021-05-20 13:18:22,639    DEBUG ---> Запуск client02.py   
+2021-05-20 13:18:22,641    DEBUG ---> Создаём экземпляр Client   
+2021-05-20 13:18:22,641    DEBUG ---> Отправлено сообщение серверу: 
+{'action': 'authorization', 'time': '1621505902.6417735', 'user': {'login': 'Ivan', 'pass': 'Ivan123'}}   
+2021-05-20 13:18:22,642    DEBUG ---> Получено сообщение от сервера: 
+{'action': 'authorization', 'time': '1621501412.6409914', 'response': 409, 'alert': 'You are already registered'}   
+2021-05-20 13:18:40,054    DEBUG ---> Запуск client02.py   
+2021-05-20 13:18:40,055    DEBUG ---> Создаём экземпляр Client   
+2021-05-20 13:18:40,056    DEBUG ---> Отправлено сообщение серверу: 
+{'action': 'connect', 'time': '1621505920.0562177', 'alert': 'Please connect'}   
+2021-05-20 13:18:40,056    DEBUG ---> Получено сообщение от сервера: 
+{'action': 'connect', 'time': '1621501412.640968', 'response': 200, 'alert': 'Im ready to connect'}   
+2021-05-20 13:29:10,703    DEBUG ---> Запуск client02.py   
+2021-05-20 13:29:10,704    DEBUG ---> Создаём экземпляр Client   
+2021-05-20 13:29:10,704    ERROR ---> 'NoneType' object is not callable   
+2021-05-20 13:32:25,147    DEBUG ---> serverSurvey   
+2021-05-20 13:32:25,147    DEBUG ---> Запуск client02.py   
+2021-05-20 13:32:25,149    DEBUG ---> Создаём экземпляр Client   
+2021-05-20 13:32:25,150    ERROR ---> 'NoneType' object is not callable   
+2021-05-20 14:13:14,824    DEBUG ---> Запуск client02.py   
+2021-05-20 14:13:14,825    DEBUG ---> Создаём экземпляр Client   
+2021-05-20 14:13:14,825    ERROR ---> name 'inspect' is not defined   
+2021-05-20 14:13:28,816    DEBUG ---> Запуск client02.py   
+2021-05-20 14:13:28,817    DEBUG ---> Создаём экземпляр Client   
+2021-05-20 14:13:28,821    DEBUG ---> serverSurvey was called from function <module>   
+2021-05-20 14:13:28,822    DEBUG ---> Отправлено сообщение серверу: 
+{'action': 'connect', 'time': '1621509208.822161', 'alert': 'Please connect'}   
+2021-05-20 14:13:28,822    DEBUG ---> Получено сообщение от сервера: 
+{'action': 'connect', 'time': '1621501412.640968', 'response': 200, 'alert': 'Im ready to connect'}   
+2021-05-20 14:14:35,993    DEBUG ---> Запуск client02.py   
+2021-05-20 14:14:35,995    DEBUG ---> Создаём экземпляр Client   
+2021-05-20 14:14:35,999    ERROR ---> list index out of range   
+2021-05-20 14:14:44,149    DEBUG ---> Запуск client02.py   
+2021-05-20 14:14:44,151    DEBUG ---> Создаём экземпляр Client   
+2021-05-20 14:14:44,155    DEBUG ---> serverSurvey was called from function 95   
+2021-05-20 14:14:44,155    DEBUG ---> Отправлено сообщение серверу: 
+{'action': 'connect', 'time': '1621509284.1558685', 'alert': 'Please connect'}   
+2021-05-20 14:14:44,156    DEBUG ---> Получено сообщение от сервера: 
+{'action': 'connect', 'time': '1621501412.640968', 'response': 200, 'alert': 'Im ready to connect'}   
+2021-05-20 14:14:52,295    DEBUG ---> Запуск client02.py   
+2021-05-20 14:14:52,296    DEBUG ---> Создаём экземпляр Client   
+2021-05-20 14:14:52,300    DEBUG ---> serverSurvey was called from function <module>   
+2021-05-20 14:14:52,300    DEBUG ---> Отправлено сообщение серверу: 
+{'action': 'connect', 'time': '1621509292.300765', 'alert': 'Please connect'}   
+2021-05-20 14:14:52,301    DEBUG ---> Получено сообщение от сервера: 
+{'action': 'connect', 'time': '1621501412.640968', 'response': 200, 'alert': 'Im ready to connect'}   
+2021-05-20 14:15:01,494    DEBUG ---> Запуск client02.py   
+2021-05-20 14:15:01,495    DEBUG ---> Создаём экземпляр Client   
+2021-05-20 14:15:01,499    ERROR ---> 'str' object has no attribute '__name__'   
+2021-05-20 14:15:24,022    DEBUG ---> Запуск client02.py   
+2021-05-20 14:15:24,024    DEBUG ---> Создаём экземпляр Client   
+2021-05-20 14:15:24,028    DEBUG ---> serverSurvey was called from function <module>   
+2021-05-20 14:15:24,028    DEBUG ---> Отправлено сообщение серверу: 
+{'action': 'connect', 'time': '1621509324.0285635', 'alert': 'Please connect'}   
+2021-05-20 14:15:24,029    DEBUG ---> Получено сообщение от сервера: 
+{'action': 'connect', 'time': '1621501412.640968', 'response': 200, 'alert': 'Im ready to connect'}   
+2021-05-20 14:16:08,835    DEBUG ---> Запуск client02.py   
+2021-05-20 14:16:08,837    DEBUG ---> Создаём экземпляр Client   
+2021-05-20 14:16:08,843    DEBUG ---> serverSurvey was called from function client02.py   
+2021-05-20 14:16:08,844    DEBUG ---> Отправлено сообщение серверу: 
+{'action': 'connect', 'time': '1621509368.8439248', 'alert': 'Please connect'}   
+2021-05-20 14:16:08,844    DEBUG ---> Получено сообщение от сервера: 
+{'action': 'connect', 'time': '1621501412.640968', 'response': 200, 'alert': 'Im ready to connect'}   
+2021-05-20 14:16:18,969    DEBUG ---> Запуск client02.py   
+2021-05-20 14:16:18,971    DEBUG ---> Создаём экземпляр Client   
+2021-05-20 14:16:18,975    DEBUG ---> serverSurvey was called from function 95   
+2021-05-20 14:16:18,975    DEBUG ---> Отправлено сообщение серверу: 
+{'action': 'connect', 'time': '1621509378.9753637', 'alert': 'Please connect'}   
+2021-05-20 14:16:18,975    DEBUG ---> Получено сообщение от сервера: 
+{'action': 'connect', 'time': '1621501412.640968', 'response': 200, 'alert': 'Im ready to connect'}   
+2021-05-20 14:16:24,127    DEBUG ---> Запуск client02.py   
+2021-05-20 14:16:24,128    DEBUG ---> Создаём экземпляр Client   
+2021-05-20 14:16:24,132    DEBUG ---> serverSurvey was called from function <module>   
+2021-05-20 14:16:24,133    DEBUG ---> Отправлено сообщение серверу: 
+{'action': 'connect', 'time': '1621509384.132946', 'alert': 'Please connect'}   
+2021-05-20 14:16:24,133    DEBUG ---> Получено сообщение от сервера: 
+{'action': 'connect', 'time': '1621501412.640968', 'response': 200, 'alert': 'Im ready to connect'}   
+2021-05-20 14:16:30,564    DEBUG ---> Запуск client02.py   
+2021-05-20 14:16:30,565    DEBUG ---> Создаём экземпляр Client   
+2021-05-20 14:16:30,569    DEBUG ---> serverSurvey was called from function ['            client.serverSurvey()\n']   
+2021-05-20 14:16:30,570    DEBUG ---> Отправлено сообщение серверу: 
+{'action': 'connect', 'time': '1621509390.5700915', 'alert': 'Please connect'}   
+2021-05-20 14:16:30,570    DEBUG ---> Получено сообщение от сервера: 
+{'action': 'connect', 'time': '1621501412.640968', 'response': 200, 'alert': 'Im ready to connect'}   
+2021-05-20 14:16:43,732    DEBUG ---> Запуск client02.py   
+2021-05-20 14:16:43,734    DEBUG ---> Создаём экземпляр Client   
+2021-05-20 14:16:43,738    DEBUG ---> serverSurvey was called from function [FrameInfo(frame=<frame object at 0x7f2b8a099228>, filename='client02.py', lineno=23, function='decorated', code_context=["        logger.debug(f'{func.__name__} was called from function '\n"], index=0), FrameInfo(frame=<frame object at 0x10fae18>, filename='client02.py', lineno=95, function='<module>', code_context=['            client.serverSurvey()\n'], index=0)]   
+2021-05-20 14:16:43,738    DEBUG ---> Отправлено сообщение серверу: 
+{'action': 'connect', 'time': '1621509403.738663', 'alert': 'Please connect'}   
+2021-05-20 14:16:43,739    DEBUG ---> Получено сообщение от сервера: 
+{'action': 'connect', 'time': '1621501412.640968', 'response': 200, 'alert': 'Im ready to connect'}   
+2021-05-20 14:17:16,107    DEBUG ---> Запуск client02.py   
+2021-05-20 14:17:16,108    DEBUG ---> Создаём экземпляр Client   
+2021-05-20 14:17:16,112    DEBUG ---> serverSurvey was called from function FrameInfo(frame=<frame object at 0x2630e18>, filename='client02.py', lineno=95, function='<module>', code_context=['            client.serverSurvey()\n'], index=0)   
+2021-05-20 14:17:16,113    DEBUG ---> Отправлено сообщение серверу: 
+{'action': 'connect', 'time': '1621509436.1130915', 'alert': 'Please connect'}   
+2021-05-20 14:17:16,113    DEBUG ---> Получено сообщение от сервера: 
+{'action': 'connect', 'time': '1621501412.640968', 'response': 200, 'alert': 'Im ready to connect'}   
+2021-05-20 14:19:42,174    DEBUG ---> Запуск client02.py   
+2021-05-20 14:19:42,175    DEBUG ---> Создаём экземпляр Client   
+2021-05-20 14:19:42,180    ERROR ---> 'str' object has no attribute 'name'   
+2021-05-20 14:19:49,176    DEBUG ---> Запуск client02.py   
+2021-05-20 14:19:49,178    DEBUG ---> Создаём экземпляр Client   
+2021-05-20 14:19:49,182    DEBUG ---> serverSurvey was called from function <module>   
+2021-05-20 14:19:49,182    DEBUG ---> Отправлено сообщение серверу: 
+{'action': 'connect', 'time': '1621509589.1828187', 'alert': 'Please connect'}   
+2021-05-20 14:19:49,183    DEBUG ---> Получено сообщение от сервера: 
+{'action': 'connect', 'time': '1621501412.640968', 'response': 200, 'alert': 'Im ready to connect'}   
+2021-05-20 14:22:11,138    DEBUG ---> Запуск client02.py   
+2021-05-20 14:22:11,140    DEBUG ---> Создаём экземпляр Client   
+2021-05-20 14:22:11,140    ERROR ---> 'NoneType' object is not callable   
+2021-05-20 14:22:24,181    DEBUG ---> Запуск client02.py   
+2021-05-20 14:22:24,183    DEBUG ---> Создаём экземпляр Client   
+2021-05-20 14:22:24,188    DEBUG ---> serverSurvey was called from function <module>   
+2021-05-20 14:22:24,189    DEBUG ---> Отправлено сообщение серверу: 
+{'action': 'connect', 'time': '1621509744.1891742', 'alert': 'Please connect'}   
+2021-05-20 14:22:24,189    DEBUG ---> Получено сообщение от сервера: 
+{'action': 'connect', 'time': '1621501412.640968', 'response': 200, 'alert': 'Im ready to connect'}   
+2021-05-20 14:23:41,088    DEBUG ---> Запуск client02.py   
+2021-05-20 14:23:41,089    DEBUG ---> Создаём экземпляр Client   
+2021-05-20 14:23:41,093    DEBUG ---> serverSurvey was called from function FrameInfo(frame=<frame object at 0x7f7775de69d0>, filename='client02.py', lineno=23, function='decorated', code_context=["        logger.debug(f'{func.__name__} was called from function '\n"], index=0)   
+2021-05-20 14:23:41,093    DEBUG ---> Отправлено сообщение серверу: 
+{'action': 'connect', 'time': '1621509821.093889', 'alert': 'Please connect'}   
+2021-05-20 14:23:41,094    DEBUG ---> Получено сообщение от сервера: 
+{'action': 'connect', 'time': '1621501412.640968', 'response': 200, 'alert': 'Im ready to connect'}   
+2021-05-20 14:24:20,829    DEBUG ---> Запуск client02.py   
+2021-05-20 14:24:20,831    DEBUG ---> Создаём экземпляр Client   
+2021-05-20 14:24:20,835    DEBUG ---> serverSurvey was called from function FrameInfo(frame=<frame object at 0x177fe18>, filename='client02.py', lineno=95, function='<module>', code_context=['            client.serverSurvey()\n'], index=0)   
+2021-05-20 14:24:20,836    DEBUG ---> Отправлено сообщение серверу: 
+{'action': 'connect', 'time': '1621509860.835951', 'alert': 'Please connect'}   
+2021-05-20 14:24:20,836    DEBUG ---> Получено сообщение от сервера: 
+{'action': 'connect', 'time': '1621501412.640968', 'response': 200, 'alert': 'Im ready to connect'}   
+2021-05-20 14:26:02,008    DEBUG ---> Запуск client02.py   
+2021-05-20 14:26:02,009    DEBUG ---> Создаём экземпляр Client   
+2021-05-20 14:26:02,013    ERROR ---> list index out of range   
+2021-05-20 14:26:11,389    DEBUG ---> Запуск client02.py   
+2021-05-20 14:26:11,391    DEBUG ---> Создаём экземпляр Client   
+2021-05-20 14:26:11,395    DEBUG ---> serverSurvey was called from function FrameInfo(frame=<frame object at 0x1117e18>, filename='client02.py', lineno=95, function='<module>', code_context=['            client.serverSurvey()\n'], index=0)   
+2021-05-20 14:26:11,396    DEBUG ---> Отправлено сообщение серверу: 
+{'action': 'connect', 'time': '1621509971.39616', 'alert': 'Please connect'}   
+2021-05-20 14:26:11,396    DEBUG ---> Получено сообщение от сервера: 
+{'action': 'connect', 'time': '1621501412.640968', 'response': 200, 'alert': 'Im ready to connect'}   
+2021-05-20 14:27:37,405    DEBUG ---> Запуск client02.py   
+2021-05-20 14:27:37,407    DEBUG ---> Создаём экземпляр Client   
+2021-05-20 14:27:37,411    DEBUG ---> serverSurvey was called from function main   
+2021-05-20 14:27:37,411    DEBUG ---> Отправлено сообщение серверу: 
+{'action': 'connect', 'time': '1621510057.4117248', 'alert': 'Please connect'}   
+2021-05-20 14:27:37,412    DEBUG ---> Получено сообщение от сервера: 
+{'action': 'connect', 'time': '1621501412.640968', 'response': 200, 'alert': 'Im ready to connect'}   
+2021-05-20 14:28:34,521    DEBUG ---> Запуск client02.py   
+2021-05-20 14:28:34,523    DEBUG ---> Создаём экземпляр Client   
+2021-05-20 14:28:34,527    DEBUG ---> serverSurvey was called from function main   
+2021-05-20 14:28:34,527    DEBUG ---> Отправлено сообщение серверу: 
+{'action': 'connect', 'time': '1621510114.527858', 'alert': 'Please connect'}   
+2021-05-20 14:28:34,528    DEBUG ---> Получено сообщение от сервера: 
+{'action': 'connect', 'time': '1621501412.640968', 'response': 200, 'alert': 'Im ready to connect'}   
+2021-05-20 14:35:41,350    DEBUG ---> Запуск client02.py   
+2021-05-20 14:35:41,352    DEBUG ---> Создаём экземпляр Client   
+2021-05-20 14:35:41,356    DEBUG ---> serverSurvey вызвана из main   
+2021-05-20 14:35:41,356    DEBUG ---> Отправлено сообщение серверу: 
+{'action': 'connect', 'time': '1621510541.3562863', 'alert': 'Please connect'}   
+2021-05-20 14:35:41,356    DEBUG ---> Получено сообщение от сервера: 
+{'action': 'connect', 'time': '1621510541.3569078', 'response': 200, 'alert': 'Im ready to connect'}   
+2021-05-20 14:36:58,271    DEBUG ---> Запуск client02.py   
+2021-05-20 14:36:58,272    DEBUG ---> Создаём экземпляр Client   
+2021-05-20 14:36:58,277    DEBUG ---> serverSurvey вызвана из main   
+2021-05-20 14:36:58,277    DEBUG ---> Отправлено сообщение серверу: 
+{'action': 'connect', 'time': '1621510618.2773168', 'alert': 'Please connect'}   
+2021-05-20 14:36:58,278    DEBUG ---> Получено сообщение от сервера: 
+{'action': 'connect', 'response': 200, 'alert': 'Im ready to connect', 'time': '1621510618.277983'}   
+2021-05-20 14:40:50,805    DEBUG ---> Запуск client02.py   
+2021-05-20 14:40:50,806    DEBUG ---> Создаём экземпляр Client   
+2021-05-20 14:40:50,811    DEBUG ---> serverSurvey вызвана из main   
+2021-05-20 14:40:50,811    DEBUG ---> Отправлено сообщение серверу: 
+{'action': 'connect', 'time': '1621510850.8113089', 'alert': 'Please connect'}   
+2021-05-20 14:40:50,812    ERROR ---> Ran out of input   
+2021-05-20 14:42:52,711    DEBUG ---> Запуск client02.py   
+2021-05-20 14:42:52,712    DEBUG ---> Создаём экземпляр Client   
+2021-05-20 14:42:52,716    DEBUG ---> serverSurvey вызвана из main   
+2021-05-20 14:42:52,716    DEBUG ---> Отправлено сообщение серверу: 
+{'action': 'connect', 'time': '1621510972.71691', 'alert': 'Please connect'}   
+2021-05-20 14:42:52,717    DEBUG ---> Получено сообщение от сервера: 
+{'response': 200, 'alert': 'Im ready to connect', 'time': '1621510972.717569', 'action': 'response'}   
+2021-05-20 14:45:11,290    DEBUG ---> Запуск client02.py   
+2021-05-20 14:45:11,292    DEBUG ---> Создаём экземпляр Client   
+2021-05-20 14:45:11,296    DEBUG ---> serverSurvey вызвана из main   
+2021-05-20 14:45:11,296    DEBUG ---> Отправлено сообщение серверу: 
+{'action': 'connect', 'time': '1621511111.2963433', 'alert': 'Please connect'}   
+2021-05-20 14:45:11,297    DEBUG ---> Получено сообщение от сервера: 
+{'response': 200, 'alert': 'Im ready to connect', 'time': '1621511111.2969623', 'action': 'connect'}   
+2021-05-20 14:45:31,654    DEBUG ---> Запуск client02.py   
+2021-05-20 14:45:31,655    DEBUG ---> Создаём экземпляр Client   
+2021-05-20 14:45:31,659    DEBUG ---> authorization вызвана из main   
+2021-05-20 14:45:31,660    DEBUG ---> Отправлено сообщение серверу: 
+{'action': 'authorization', 'time': '1621511131.6601307', 'user': {'login': 'Ivan', 'pass': 'Ivan123'}}   
+2021-05-20 14:45:31,661    DEBUG ---> Получено сообщение от сервера: 
+{'response': 200, 'alert': 'authorization OK', 'time': '1621511131.6612296', 'action': 'authorization'}   
+2021-05-20 14:53:14,466    DEBUG ---> Запуск client02.py   
+2021-05-20 14:57:38,246    DEBUG ---> Запуск client02.py   
+2021-05-20 14:57:38,248    DEBUG ---> Создаём экземпляр Client   
+2021-05-20 14:57:38,252    DEBUG ---> authorization вызвана из main   
+2021-05-20 14:57:38,252    DEBUG ---> Отправлено сообщение серверу: 
+{'action': 'authorization', 'time': '1621511858.252872', 'user': {'login': 'Ivan', 'pass': 'Ivan123'}}   
+2021-05-20 14:57:38,254    DEBUG ---> Получено сообщение от сервера: 
+{'response': 200, 'alert': 'authorization OK', 'time': '1621511858.254002', 'action': 'authorization'}   
+2021-05-20 15:29:11,673    DEBUG ---> Запуск client02.py   
+2021-05-20 15:29:11,674    DEBUG ---> Создаём экземпляр Client   
+2021-05-20 15:29:11,678    DEBUG ---> authorization вызвана из main   
+2021-05-20 15:29:11,679    DEBUG ---> Отправлено сообщение серверу: 
+{'action': 'authorization', 'time': '1621513751.6790974', 'user': {'login': 'Ivan', 'pass': 'Ivan123'}}   
+2021-05-20 15:29:11,680    DEBUG ---> Получено сообщение от сервера: 
+{'response': 200, 'alert': 'authorization OK', 'time': '1621513751.6804562', 'action': 'authorization'}   

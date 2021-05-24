@@ -1,0 +1,148 @@
+2021-05-21 18:01:46,710    DEBUG ---> Запуск client02.py   
+2021-05-21 18:01:46,715    DEBUG ---> Создаём экземпляр Client   
+2021-05-21 18:01:46,716    ERROR ---> 'Namespace' object has no attribute 'survey'   
+2021-05-21 18:03:31,691    DEBUG ---> Запуск client02.py   
+2021-05-21 18:03:31,692    DEBUG ---> Создаём экземпляр Client   
+2021-05-21 18:03:31,693    DEBUG ---> Отправлено сообщение серверу: 
+{'action': 'connect', 'time': '1621609411.6929944', 'alert': 'Please connect'}   
+2021-05-21 18:03:31,693    DEBUG ---> Получено сообщение от сервера: 
+{'response': 200, 'alert': 'Im ready to connect', 'time': '1621609411.6936839', 'action': 'connect'}   
+2021-05-21 18:03:31,694    ERROR ---> invalid literal for int() with base 10: 'connect'   
+2021-05-21 18:04:08,995    DEBUG ---> Запуск client02.py   
+2021-05-21 18:04:08,997    DEBUG ---> Создаём экземпляр Client   
+2021-05-21 18:04:08,997    DEBUG ---> Отправлено сообщение серверу: 
+{'action': 'connect', 'time': '1621609448.9973893', 'alert': 'Please connect'}   
+2021-05-21 18:04:08,998    DEBUG ---> Получено сообщение от сервера: 
+{'response': 200, 'alert': 'Im ready to connect', 'time': '1621609448.9980185', 'action': 'connect'}   
+2021-05-21 18:04:30,229    DEBUG ---> Запуск client02.py   
+2021-05-21 18:04:30,230    DEBUG ---> Создаём экземпляр Client   
+2021-05-21 18:04:30,231    DEBUG ---> Отправлено сообщение серверу: 
+{'action': 'connect', 'time': '1621609470.2310882', 'alert': 'Please connect'}   
+2021-05-21 18:04:30,231    DEBUG ---> Получено сообщение от сервера: 
+{'response': 200, 'alert': 'Im ready to connect', 'time': '1621609470.2317219', 'action': 'connect'}   
+2021-05-21 18:04:36,705    DEBUG ---> Отправлено сообщение серверу: 
+{'action': 'authorization', 'time': '1621609476.7047136', 'user': {'login': 'Ivan', 'pass': 'Password'}}   
+2021-05-21 18:04:36,705    ERROR ---> Ran out of input   
+2021-05-21 18:07:15,134    DEBUG ---> Запуск client02.py   
+2021-05-21 18:07:15,135    DEBUG ---> Создаём экземпляр Client   
+2021-05-21 18:07:15,135    DEBUG ---> Отправлено сообщение серверу: 
+{'action': 'connect', 'time': '1621609635.1357858', 'alert': 'Please connect'}   
+2021-05-21 18:07:15,136    DEBUG ---> Получено сообщение от сервера: 
+{'response': 200, 'alert': 'Im ready to connect', 'time': '1621609635.1364222', 'action': 'connect'}   
+2021-05-21 18:07:21,652    DEBUG ---> Отправлено сообщение серверу: 
+{'action': 'authorization', 'time': '1621609641.651863', 'user': {'login': 'I', 'pass': 'P'}}   
+2021-05-21 18:07:21,652    ERROR ---> Ran out of input   
+2021-05-21 18:10:43,524    DEBUG ---> Запуск client02.py   
+2021-05-21 18:10:43,526    DEBUG ---> Создаём экземпляр Client   
+2021-05-21 18:10:43,526    DEBUG ---> Отправлено сообщение серверу: 
+{'action': 'connect', 'time': '1621609843.5265353', 'alert': 'Please connect'}   
+2021-05-21 18:10:43,527    DEBUG ---> Получено сообщение от сервера: 
+{'response': 200, 'alert': 'Im ready to connect', 'time': '1621609843.527634', 'action': 'connect'}   
+2021-05-21 18:10:46,938    DEBUG ---> Отправлено сообщение серверу: 
+{'action': 'authorization', 'time': '1621609846.9386134', 'user': {'login': 'I', 'pass': 'P'}}   
+2021-05-21 18:11:12,162    ERROR ---> [Errno 104] Connection reset by peer   
+2021-05-21 18:11:56,669    DEBUG ---> Запуск client02.py   
+2021-05-21 18:11:56,670    DEBUG ---> Создаём экземпляр Client   
+2021-05-21 18:11:56,670    DEBUG ---> Отправлено сообщение серверу: 
+{'action': 'connect', 'time': '1621609916.6706045', 'alert': 'Please connect'}   
+2021-05-21 18:11:56,671    DEBUG ---> Получено сообщение от сервера: 
+{'response': 200, 'alert': 'Im ready to connect', 'time': '1621609916.6714873', 'action': 'connect'}   
+2021-05-21 18:12:00,804    DEBUG ---> Отправлено сообщение серверу: 
+{'action': 'authorization', 'time': '1621609920.8042355', 'user': {'login': 'L', 'pass': 'P'}}   
+2021-05-21 18:12:23,442    ERROR ---> [Errno 104] Connection reset by peer   
+2021-05-21 18:14:31,090    DEBUG ---> Запуск client02.py   
+2021-05-21 18:14:31,091    DEBUG ---> Создаём экземпляр Client   
+2021-05-21 18:14:31,091    DEBUG ---> Отправлено сообщение серверу: 
+{'action': 'connect', 'time': '1621610071.0917857', 'alert': 'Please connect'}   
+2021-05-21 18:14:31,092    DEBUG ---> Получено сообщение от сервера: 
+{'response': 200, 'alert': 'Im ready to connect', 'time': '1621610071.0926368', 'action': 'connect'}   
+2021-05-21 18:14:34,469    DEBUG ---> Отправлено сообщение серверу: 
+{'action': 'authorization', 'time': '1621610074.4689286', 'user': {'login': 'L', 'pass': 'P'}}   
+2021-05-21 18:14:40,852    ERROR ---> [Errno 104] Connection reset by peer   
+2021-05-21 18:17:24,453    DEBUG ---> Запуск client02.py   
+2021-05-21 18:17:24,454    DEBUG ---> Создаём экземпляр Client   
+2021-05-21 18:17:24,454    DEBUG ---> Отправлено сообщение серверу: 
+{'action': 'connect', 'time': '1621610244.4547749', 'alert': 'Please connect'}   
+2021-05-21 18:17:24,455    DEBUG ---> Получено сообщение от сервера: 
+{'response': 200, 'alert': 'Im ready to connect', 'time': '1621610244.455661', 'action': 'connect'}   
+2021-05-21 18:17:27,461    DEBUG ---> Отправлено сообщение серверу: 
+{'action': 'authorization', 'time': '1621610247.461094', 'user': {'login': 'Д', 'pass': 'З'}}   
+2021-05-21 18:17:27,467    DEBUG ---> Получено сообщение от сервера: 
+{'response': 200, 'alert': 'authorization OK', 'time': '1621610247.466669', 'action': 'authorization'}   
+2021-05-21 18:18:09,976    DEBUG ---> Запуск client02.py   
+2021-05-21 18:18:09,978    DEBUG ---> Создаём экземпляр Client   
+2021-05-21 18:18:09,978    DEBUG ---> Отправлено сообщение серверу: 
+{'action': 'connect', 'time': '1621610289.9784663', 'alert': 'Please connect'}   
+2021-05-21 18:18:09,979    DEBUG ---> Получено сообщение от сервера: 
+{'response': 200, 'alert': 'Im ready to connect', 'time': '1621610289.9793615', 'action': 'connect'}   
+2021-05-21 18:37:36,441    DEBUG ---> Запуск client02.py   
+2021-05-21 18:37:36,442    DEBUG ---> Создаём экземпляр Client   
+2021-05-21 18:37:36,443    DEBUG ---> Отправлено сообщение серверу: 
+{'action': 'connect', 'time': '1621611456.442979', 'alert': 'Please connect'}   
+2021-05-21 18:37:36,443    DEBUG ---> Получено сообщение от сервера: 
+{'response': 200, 'alert': 'Im ready to connect', 'time': '1621611456.44361', 'action': 'connect'}   
+2021-05-21 18:37:46,327    DEBUG ---> Отправлено сообщение серверу: 
+{'action': 'authorization', 'time': '1621611466.3273697', 'user': {'login': 'Login', 'pass': 'Pass'}}   
+2021-05-21 18:37:46,333    DEBUG ---> Получено сообщение от сервера: 
+{'response': 200, 'alert': 'authorization OK', 'time': '1621611466.3327463', 'action': 'authorization'}   
+2021-05-21 18:57:28,813    DEBUG ---> Запуск client02.py   
+2021-05-21 18:57:28,814    DEBUG ---> Создаём экземпляр Client   
+2021-05-21 18:57:28,815    DEBUG ---> Отправлено сообщение серверу: 
+{'action': 'connect', 'time': '1621612648.815061', 'alert': 'Please connect'}   
+2021-05-21 18:57:28,815    DEBUG ---> Получено сообщение от сервера: 
+{'response': 200, 'alert': 'Im ready to connect', 'time': '1621612648.8157117', 'action': 'connect'}   
+2021-05-21 18:57:34,685    DEBUG ---> Отправлено сообщение серверу: 
+{'action': 'authorization', 'time': '1621612654.6847878', 'user': {'login': 'Ivan', 'pass': 'Pass'}}   
+2021-05-21 18:57:34,690    DEBUG ---> Получено сообщение от сервера: 
+{'response': 200, 'alert': 'authorization OK', 'time': '1621612654.6903143', 'action': 'authorization'}   
+2021-05-21 19:01:17,211    DEBUG ---> Запуск client02.py   
+2021-05-21 19:01:17,212    DEBUG ---> Создаём экземпляр Client   
+2021-05-21 19:01:17,213    DEBUG ---> Отправлено сообщение серверу: 
+{'action': 'connect', 'time': '1621612877.213121', 'alert': 'Please connect'}   
+2021-05-21 19:01:17,213    DEBUG ---> Получено сообщение от сервера: 
+{'response': 200, 'alert': 'Im ready to connect', 'time': '1621612877.2137797', 'action': 'connect'}   
+2021-05-21 19:01:24,512    DEBUG ---> Отправлено сообщение серверу: 
+{'action': 'authorization', 'time': '1621612884.5117028', 'user': {'login': 'Ivan', 'pass': 'Pass'}}   
+2021-05-21 19:01:24,519    DEBUG ---> Получено сообщение от сервера: 
+{'response': 409, 'alert': 'Кто-то уже подключен под Вашим именем и паролем', 'time': '1621612884.519331', 'action': 'authorization'}   
+2021-05-21 19:09:57,593    DEBUG ---> Запуск client02.py   
+2021-05-21 19:09:57,595    DEBUG ---> Создаём экземпляр Client   
+2021-05-21 19:09:57,595    DEBUG ---> Отправлено сообщение серверу: 
+{'action': 'connect', 'time': '1621613397.595521', 'alert': 'Please connect'}   
+2021-05-21 19:09:57,596    DEBUG ---> Получено сообщение от сервера: 
+{'response': 200, 'alert': 'Im ready to connect', 'time': '1621613397.5961585', 'action': 'connect'}   
+2021-05-21 19:10:04,845    DEBUG ---> Отправлено сообщение серверу: 
+{'action': 'authorization', 'time': '1621613404.8454633', 'user': {'login': 'Ivan', 'pass': 'Pass'}}   
+2021-05-21 19:10:04,851    DEBUG ---> Получено сообщение от сервера: 
+{'response': 402, 'alert': 'Пользователь с таким именем уже зарегистриован или Вы ввели не верный пароль', 'time': '1621613404.8508968', 'action': 'authorization'}   
+2021-05-21 19:10:19,117    DEBUG ---> Отправлено сообщение серверу: 
+{'action': 'authorization', 'time': '1621613419.117543', 'user': {'login': 'Ivan', 'pass': 'P'}}   
+2021-05-21 19:10:19,122    DEBUG ---> Получено сообщение от сервера: 
+{'response': 402, 'alert': 'Пользователь с таким именем уже зарегистриован или Вы ввели не верный пароль', 'time': '1621613419.1224182', 'action': 'authorization'}   
+2021-05-21 19:10:28,158    DEBUG ---> Отправлено сообщение серверу: 
+{'action': 'authorization', 'time': '1621613428.157842', 'user': {'login': 'Ivan', 'pass': 'Pass'}}   
+2021-05-21 19:10:28,164    DEBUG ---> Получено сообщение от сервера: 
+{'response': 402, 'alert': 'Пользователь с таким именем уже зарегистриован или Вы ввели не верный пароль', 'time': '1621613428.163762', 'action': 'authorization'}   
+2021-05-21 19:10:39,299    DEBUG ---> Отправлено сообщение серверу: 
+{'action': 'authorization', 'time': '1621613439.2992196', 'user': {'login': '', 'pass': ''}}   
+2021-05-21 19:10:39,300    ERROR ---> Ran out of input   
+2021-05-21 19:17:46,559    DEBUG ---> Запуск client02.py   
+2021-05-21 19:17:46,560    DEBUG ---> Создаём экземпляр Client   
+2021-05-21 19:17:46,560    DEBUG ---> Отправлено сообщение серверу: 
+{'action': 'connect', 'time': '1621613866.560887', 'alert': 'Please connect'}   
+2021-05-21 19:17:46,561    DEBUG ---> Получено сообщение от сервера: 
+{'response': 200, 'alert': 'Im ready to connect', 'time': '1621613866.5615377', 'action': 'connect'}   
+2021-05-21 19:17:53,105    DEBUG ---> Отправлено сообщение серверу: 
+{'action': 'authorization', 'time': '1621613873.1049588', 'user': {'login': 'Ivan', 'pass': 'Pass'}}   
+2021-05-21 19:17:53,109    DEBUG ---> Получено сообщение от сервера: 
+{'response': 200, 'alert': 'authorization OK', 'time': '1621613873.1088645', 'action': 'authorization'}   
+2021-05-21 19:20:21,880    DEBUG ---> Запуск client02.py   
+2021-05-21 19:20:21,881    DEBUG ---> Создаём экземпляр Client   
+2021-05-21 19:20:21,881    DEBUG ---> Отправлено сообщение серверу: 
+{'action': 'connect', 'time': '1621614021.881859', 'alert': 'Please connect'}   
+2021-05-21 19:20:21,882    DEBUG ---> Получено сообщение от сервера: 
+{'response': 200, 'alert': 'Im ready to connect', 'time': '1621614021.8825254', 'action': 'connect'}   
+2021-05-21 19:20:27,730    DEBUG ---> Отправлено сообщение серверу: 
+{'action': 'authorization', 'time': '1621614027.7299454', 'user': {'login': 'Ivan', 'pass': 'Pass'}}   
+2021-05-21 19:20:27,734    DEBUG ---> Получено сообщение от сервера: 
+{'response': 200, 'alert': 'authorization OK', 'time': '1621614027.733933', 'action': 'authorization'}   
