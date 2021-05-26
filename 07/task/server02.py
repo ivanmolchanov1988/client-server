@@ -90,9 +90,8 @@ class Server:
             self.oChats = json.load(rf)
         self.logger.debug(f'Клиент в чатах:\n{client}')
         @decor_log
-        def createChat(write, user):
+        def createChat(write, rf, user):
             chatData = {
-                write['nChat']: {
                     'users': [write['user']['login']],
                     'msg': [
                         {
@@ -100,13 +99,13 @@ class Server:
                             'msg': write['msg']
                         },
                     ],
-                },
-            }
+                }
             with open("chats.json", "w") as wf:
-                json.dump(chatData, wf)
+                rf[write['nChat']] = chatData
+                json.dump(rf, wf)
 
         if data['nChat'] not in self.oChats.keys():
-            createChat(data, client)
+            createChat(data, self.oChats, client)
         else:
             if data['user']['login'] not in self.oChats[data['nChat']]['users']:
                 self.oChats[data['nChat']]['users'].append(data['user']['login'])
@@ -179,7 +178,6 @@ class Server:
                 if sock in requests:
                     try:
                         # Подготовить и отправить ответ сервера
-                        #resp = requests[sock].encode('utf-8')
                         if requests[sock]['action'] == 'connect':
                             self.logger.debug(f'Клиент просит подключения:\n{requests[sock]}')
                             response_to_client(sock, self.response[requests[sock]['action']], requests[sock]['action'])
