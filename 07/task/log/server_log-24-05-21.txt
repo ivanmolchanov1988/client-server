@@ -1,0 +1,70 @@
+2021-05-24 17:49:23,808    DEBUG ---> Запуск server02.py   
+2021-05-24 17:49:23,809    DEBUG ---> Создаём экземпляр Server   
+2021-05-24 17:49:39,249    DEBUG ---> Клиент просит подключения:
+{'action': 'connect', 'time': '1621867779.248827', 'alert': 'Please connect'}   
+2021-05-24 17:49:39,251    DEBUG ---> Отправлено сообщение клиенту:
+{'response': 200, 'alert': 'Im ready to connect', 'time': '1621867779.2511444', 'action': 'connect'}   
+2021-05-24 17:49:48,863    DEBUG ---> Клиент пробует авторизоваться:
+{'action': 'authorization', 'time': '1621867788.8631756', 'user': {'login': 'Ivan', 'pass': 'Pass'}}   
+2021-05-24 17:49:48,864    DEBUG ---> Отправлено сообщение клиенту:
+{'response': 200, 'alert': 'authorization OK', 'time': '1621867788.864781', 'action': 'authorization'}   
+2021-05-24 17:49:48,865    ERROR ---> Ran out of input   
+2021-05-24 18:18:28,160    DEBUG ---> Запуск server02.py   
+2021-05-24 18:18:28,162    DEBUG ---> Создаём экземпляр Server   
+2021-05-24 18:18:28,167    ERROR ---> 'list' object is not callable   
+2021-05-24 18:18:57,157    DEBUG ---> Запуск server02.py   
+2021-05-24 18:18:57,158    DEBUG ---> Создаём экземпляр Server   
+2021-05-24 18:18:57,163    ERROR ---> 'list' object is not callable   
+2021-05-24 18:19:05,087    DEBUG ---> Запуск server02.py   
+2021-05-24 18:19:05,088    DEBUG ---> Создаём экземпляр Server   
+2021-05-24 18:19:05,093    ERROR ---> 'list' object is not callable   
+2021-05-24 18:19:22,320    DEBUG ---> Запуск server02.py   
+2021-05-24 18:19:22,321    DEBUG ---> Создаём экземпляр Server   
+2021-05-24 18:19:22,327    ERROR ---> 'list' object is not callable   
+2021-05-24 18:19:36,778    DEBUG ---> Запуск server02.py   
+2021-05-24 18:19:36,779    DEBUG ---> Создаём экземпляр Server   
+2021-05-24 18:19:36,784    ERROR ---> 'list' object is not callable   
+2021-05-24 18:20:08,947    DEBUG ---> Запуск server02.py   
+2021-05-24 18:20:08,949    DEBUG ---> Создаём экземпляр Server   
+2021-05-24 18:20:08,957    ERROR ---> 'list' object is not callable   
+2021-05-24 18:20:15,977    DEBUG ---> Запуск server02.py   
+2021-05-24 18:20:15,979    DEBUG ---> Создаём экземпляр Server   
+2021-05-24 18:20:15,989    ERROR ---> 'list' object is not callable   
+2021-05-24 18:20:22,906    DEBUG ---> Запуск server02.py   
+2021-05-24 18:20:22,907    DEBUG ---> Создаём экземпляр Server   
+2021-05-24 18:20:22,913    ERROR ---> 'list' object is not callable   
+2021-05-24 18:20:29,665    DEBUG ---> Запуск server02.py   
+2021-05-24 18:20:29,667    DEBUG ---> Создаём экземпляр Server   
+2021-05-24 18:20:29,672    ERROR ---> 'list' object is not callable   
+2021-05-24 18:20:47,846    DEBUG ---> Запуск server02.py   
+2021-05-24 18:20:47,847    DEBUG ---> Создаём экземпляр Server   
+2021-05-24 18:20:47,852    ERROR ---> 'list' object is not callable   
+2021-05-24 18:21:20,054    DEBUG ---> Запуск server02.py   
+2021-05-24 18:21:20,055    DEBUG ---> Создаём экземпляр Server   
+2021-05-24 18:21:20,061    ERROR ---> 'list' object is not callable   
+2021-05-24 18:22:51,736    DEBUG ---> Запуск server02.py   
+2021-05-24 18:22:51,737    DEBUG ---> Создаём экземпляр Server   
+2021-05-24 18:22:55,977    ERROR ---> 'list' object is not callable   
+2021-05-24 18:23:21,092    DEBUG ---> Запуск server02.py   
+2021-05-24 18:23:21,093    DEBUG ---> Создаём экземпляр Server   
+2021-05-24 18:23:23,033    ERROR ---> 'list' object is not callable   
+2021-05-24 18:23:32,772    DEBUG ---> Запуск server02.py   
+2021-05-24 18:23:32,773    DEBUG ---> Создаём экземпляр Server   
+2021-05-24 18:23:42,789    ERROR ---> 'list' object is not callable   
+2021-05-24 18:23:50,570    DEBUG ---> Запуск server02.py   
+2021-05-24 18:23:50,572    DEBUG ---> Создаём экземпляр Server   
+2021-05-24 18:24:00,589    ERROR ---> 'list' object is not callable   
+2021-05-24 18:24:25,323    DEBUG ---> Запуск server02.py   
+2021-05-24 18:24:25,325    DEBUG ---> Создаём экземпляр Server   
+2021-05-24 18:24:35,340    ERROR ---> 'list' object is not callable   
+2021-05-24 21:21:30,289    DEBUG ---> Запуск server02.py   
+2021-05-24 21:21:30,290    DEBUG ---> Создали экземпляр Server   
+2021-05-24 21:21:40,506    DEBUG ---> Клиент 5 ('127.0.0.1', 46724) отключился   
+2021-05-24 21:22:11,146    DEBUG ---> Клиент 5 ('127.0.0.1', 46726) отключился   
+2021-05-24 21:23:49,503    DEBUG ---> Запуск server02.py   
+2021-05-24 21:23:49,504    DEBUG ---> Создали экземпляр Server   
+2021-05-24 21:25:04,716    DEBUG ---> Запуск server02.py   
+2021-05-24 21:25:04,717    DEBUG ---> Создали экземпляр Server   
+2021-05-24 21:26:06,813    DEBUG ---> Запуск server02.py   
+2021-05-24 21:26:06,814    DEBUG ---> Создали экземпляр Server   
+2021-05-24 21:26:17,030    DEBUG ---> Клиент 5 ('127.0.0.1', 46736) отключился   

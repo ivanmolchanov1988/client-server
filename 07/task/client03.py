@@ -32,7 +32,7 @@ def decorLog(func):
 def createParser():
     parser = argparse.ArgumentParser()
     parser.add_argument('-p', '--port', default=7777, type=int)
-    parser.add_argument('-a', '--addr', default='')
+    parser.add_argument('-a', '--address', default='')
     #parser.add_argument('--authorize', default=False, type=str)
     #parser.add_argument('--login', type=str)
     #parser.add_argument('--pswrd', type=str)
@@ -50,6 +50,8 @@ class Client:
         self.oSocket = socket(AF_INET, SOCK_STREAM)
         self.params = paramsNameSpace
 
+        self.loginPass = []
+
         self.clientPermissions = []
 
 
@@ -57,7 +59,7 @@ class Client:
     def serverSurvey(self):
         """Listener"""
         ###### 1 ######
-        self.oSocket.connect((self.params.addr, self.params.port))
+        self.oSocket.connect((self.params.address, self.params.port))
         msg = {
             'action': 'connect',
             'time': str(time.time()),
@@ -79,28 +81,55 @@ class Client:
 
         self.getLoginPass()
 
+    def goChat(self):
+        msg = {
+            'action': 'chat',
+            'time': str(time.time()),
+            'user': {
+                'login': self.loginPass[0],
+                'pass': self.loginPass[1],
+            },
+        }
+        while True:
+            nChat = input('Введите номер чата: ')
+            inp = input('Ваше сообщение: ')
+            if inp == 'exit':
+                break
+            msg['msg'] = inp
+            msg['nChat'] = nChat
+            self.oSocket.send(pickle.dumps(msg))
+            self.logger.debug(f'Отправлено сообщение серверу: \n{msg}')
+            data = self.oSocket.recv(1024)
+            response_dict = pickle.loads(data)
+            self.logger.debug(f'Получено сообщение от сервера: \n{response_dict}')
+            #self.oSocket.send(inp.encode('utf-8'))  # Отправить!
+            #data = self.oSocket.recv(1024).decode('utf-8')
+            #print('Ответ:', data)
+
     def getLoginPass(self):
         login = input('Ведите логин или N для выхода: ')
-        if login == 'N':
+        if login[0] == 'N':
             self.oSocket.close()
         else:
             pswrd = input('Ведите пароль или N для выхода: ')
             if pswrd == 'N':
                 self.oSocket.close()
             else:
-                self.authorization(login, pswrd)
+                self.loginPass.append(login)
+                self.loginPass.append(pswrd)
+                self.authorization()
 
 
     #@decorLog
-    def authorization(self, login, pswrd):
+    def authorization(self):
         ###### 2 ######
         #self.oSocket.connect((self.params.addr, self.params.port))
         msg = {
             'action': 'authorization',
             'time': str(time.time()),
             'user': {
-                'login': login,
-                'pass': pswrd,
+                'login': self.loginPass[0],
+                'pass': self.loginPass[1],
             },
         }
         self.oSocket.send(pickle.dumps(msg))
@@ -110,7 +139,7 @@ class Client:
         self.logger.debug(f'Получено сообщение от сервера: \n{response_dict}')
         if response_dict['response'] == 200:
             self.clientPermissions.append(True)
-            #отваливаемся
+            self.goChat()
 
         if response_dict['response'] == 409:
             print(response_dict['alert'])

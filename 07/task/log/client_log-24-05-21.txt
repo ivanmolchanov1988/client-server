@@ -1,0 +1,40 @@
+2021-05-24 17:49:39,242    DEBUG ---> Запуск client02.py   
+2021-05-24 17:49:39,248    DEBUG ---> Создаём экземпляр Client   
+2021-05-24 17:49:39,249    DEBUG ---> Отправлено сообщение серверу: 
+{'action': 'connect', 'time': '1621867779.248827', 'alert': 'Please connect'}   
+2021-05-24 17:49:39,251    DEBUG ---> Получено сообщение от сервера: 
+{'response': 200, 'alert': 'Im ready to connect', 'time': '1621867779.2511444', 'action': 'connect'}   
+2021-05-24 17:49:48,863    DEBUG ---> Отправлено сообщение серверу: 
+{'action': 'authorization', 'time': '1621867788.8631756', 'user': {'login': 'Ivan', 'pass': 'Pass'}}   
+2021-05-24 17:49:48,864    DEBUG ---> Получено сообщение от сервера: 
+{'response': 200, 'alert': 'authorization OK', 'time': '1621867788.864781', 'action': 'authorization'}   
+2021-05-24 18:23:56,776    DEBUG ---> Запуск client02.py   
+2021-05-24 18:23:56,777    DEBUG ---> Создаём экземпляр Client   
+2021-05-24 18:23:56,778    DEBUG ---> Отправлено сообщение серверу: 
+{'action': 'connect', 'time': '1621869836.778195', 'alert': 'Please connect'}   
+2021-05-24 18:24:00,590    ERROR ---> [Errno 104] Connection reset by peer   
+2021-05-24 18:24:28,503    DEBUG ---> Запуск client02.py   
+2021-05-24 18:24:28,504    DEBUG ---> Создаём экземпляр Client   
+2021-05-24 18:24:28,505    DEBUG ---> Отправлено сообщение серверу: 
+{'action': 'connect', 'time': '1621869868.5052097', 'alert': 'Please connect'}   
+2021-05-24 18:24:35,341    ERROR ---> [Errno 104] Connection reset by peer   
+2021-05-24 21:18:21,766    DEBUG ---> Запуск client02.py   
+2021-05-24 21:18:21,767    DEBUG ---> Создаём экземпляр Client   
+2021-05-24 21:18:21,768    DEBUG ---> Отправлено сообщение серверу: 
+{'action': 'connect', 'time': '1621880301.7682314', 'alert': 'Please connect'}   
+2021-05-24 21:18:30,578    ERROR ---> Ran out of input   
+2021-05-24 21:21:38,210    DEBUG ---> Запуск client02.py   
+2021-05-24 21:21:38,211    DEBUG ---> Создаём экземпляр Client   
+2021-05-24 21:21:38,212    DEBUG ---> Отправлено сообщение серверу: 
+{'action': 'connect', 'time': '1621880498.212089', 'alert': 'Please connect'}   
+2021-05-24 21:21:40,507    ERROR ---> Ran out of input   
+2021-05-24 21:22:02,313    DEBUG ---> Запуск client02.py   
+2021-05-24 21:22:02,314    DEBUG ---> Создаём экземпляр Client   
+2021-05-24 21:22:02,315    DEBUG ---> Отправлено сообщение серверу: 
+{'action': 'connect', 'time': '1621880522.3149443', 'alert': 'Please connect'}   
+2021-05-24 21:22:11,147    ERROR ---> Ran out of input   
+2021-05-24 21:26:10,472    DEBUG ---> Запуск client02.py   
+2021-05-24 21:26:10,473    DEBUG ---> Создаём экземпляр Client   
+2021-05-24 21:26:10,474    DEBUG ---> Отправлено сообщение серверу: 
+{'action': 'connect', 'time': '1621880770.474061', 'alert': 'Please connect'}   
+2021-05-24 21:26:17,030    ERROR ---> Ran out of input   
