@@ -1,0 +1,81 @@
+2021-05-31 18:35:23,151    DEBUG ---> Запуск client02.py   
+2021-05-31 18:35:23,164    DEBUG ---> Создаём экземпляр Client   
+2021-05-31 18:35:23,169    DEBUG ---> serverSurvey вызвана из main   
+2021-05-31 18:35:23,170    DEBUG ---> connect вызвана из serverSurvey   
+2021-05-31 18:35:23,170    DEBUG ---> sendMSG вызвана из connect   
+2021-05-31 18:35:23,171    DEBUG ---> Отправлено сообщение серверу: 
+{'alert': 'Please connect', 'time': '1622475323.1710367', 'action': 'alert'}   
+2021-05-31 18:35:23,171    DEBUG ---> receiver вызвана из connect   
+2021-05-31 18:38:12,100    ERROR ---> name 'response_dict' is not defined   
+2021-05-31 18:54:15,623    DEBUG ---> Запуск client02.py   
+2021-05-31 18:54:15,627    DEBUG ---> Создаём экземпляр Client   
+2021-05-31 18:54:15,632    DEBUG ---> serverSurvey вызвана из main   
+2021-05-31 18:54:15,632    DEBUG ---> connect вызвана из serverSurvey   
+2021-05-31 18:54:15,633    DEBUG ---> sendMSG вызвана из connect   
+2021-05-31 18:54:15,633    DEBUG ---> Отправлено сообщение серверу: 
+{'alert': 'Please connect', 'time': '1622476455.6331809', 'action': 'connect'}   
+2021-05-31 18:54:15,633    DEBUG ---> receiver вызвана из connect   
+2021-05-31 18:54:18,000    ERROR ---> name 'response_dict' is not defined   
+2021-05-31 18:58:23,749    DEBUG ---> Запуск client02.py   
+2021-05-31 18:58:23,753    DEBUG ---> Создаём экземпляр Client   
+2021-05-31 18:58:23,757    DEBUG ---> serverSurvey вызвана из main   
+2021-05-31 18:58:23,758    DEBUG ---> connect вызвана из serverSurvey   
+2021-05-31 18:58:23,758    DEBUG ---> sendMSG вызвана из connect   
+2021-05-31 18:58:23,759    DEBUG ---> Отправлено сообщение серверу: 
+{'alert': 'Please connect', 'time': '1622476703.7590258', 'action': 'connect'}   
+2021-05-31 18:58:23,759    DEBUG ---> receiver вызвана из connect   
+2021-05-31 18:58:24,295    ERROR ---> name 'response_dict' is not defined   
+2021-05-31 19:06:55,473    DEBUG ---> Запуск client02.py   
+2021-05-31 19:06:55,477    DEBUG ---> Создаём экземпляр Client   
+2021-05-31 19:06:55,481    DEBUG ---> serverSurvey вызвана из main   
+2021-05-31 19:06:55,482    DEBUG ---> connect вызвана из serverSurvey   
+2021-05-31 19:06:55,482    DEBUG ---> sendMSG вызвана из connect   
+2021-05-31 19:06:55,483    DEBUG ---> Отправлено сообщение серверу: 
+{'alert': 'Please connect', 'time': '1622477215.4829056', 'action': 'connect'}   
+2021-05-31 19:06:55,483    DEBUG ---> receiver вызвана из connect   
+2021-05-31 19:06:59,621    DEBUG ---> getLoginPass вызвана из serverSurvey   
+2021-05-31 19:07:42,340    DEBUG ---> Запуск client02.py   
+2021-05-31 19:07:42,344    DEBUG ---> Создаём экземпляр Client   
+2021-05-31 19:07:42,348    DEBUG ---> serverSurvey вызвана из main   
+2021-05-31 19:07:42,349    DEBUG ---> connect вызвана из serverSurvey   
+2021-05-31 19:07:42,349    DEBUG ---> sendMSG вызвана из connect   
+2021-05-31 19:07:42,350    DEBUG ---> Отправлено сообщение серверу: 
+{'alert': 'Please connect', 'time': '1622477262.3500674', 'action': 'connect'}   
+2021-05-31 19:07:42,350    DEBUG ---> receiver вызвана из connect   
+2021-05-31 19:07:46,475    DEBUG ---> getLoginPass вызвана из serverSurvey   
+2021-05-31 19:07:51,636    ERROR ---> 'dict' object has no attribute 'append'   
+2021-05-31 19:11:19,686    DEBUG ---> Запуск client02.py   
+2021-05-31 19:11:19,690    DEBUG ---> Создаём экземпляр Client   
+2021-05-31 19:11:19,694    DEBUG ---> serverSurvey вызвана из main   
+2021-05-31 19:11:19,695    DEBUG ---> connect вызвана из serverSurvey   
+2021-05-31 19:11:19,695    DEBUG ---> sendMSG вызвана из connect   
+2021-05-31 19:11:19,696    DEBUG ---> Отправлено сообщение серверу: 
+{'alert': 'Please connect', 'time': '1622477479.6960857', 'action': 'connect'}   
+2021-05-31 19:11:19,696    DEBUG ---> receiver вызвана из connect   
+2021-05-31 19:11:19,943    DEBUG ---> getLoginPass вызвана из serverSurvey   
+2021-05-31 19:24:05,607    DEBUG ---> Запуск client02.py   
+2021-05-31 19:24:05,611    DEBUG ---> Создаём экземпляр Client   
+2021-05-31 19:24:05,616    DEBUG ---> serverSurvey вызвана из main   
+2021-05-31 19:24:05,616    DEBUG ---> connect вызвана из serverSurvey   
+2021-05-31 19:24:05,617    DEBUG ---> sendMSG вызвана из connect   
+2021-05-31 19:24:05,617    DEBUG ---> Отправлено сообщение серверу: 
+{'alert': 'Please connect', 'time': '1622478245.6171775', 'action': 'connect'}   
+2021-05-31 19:24:05,617    DEBUG ---> receiver вызвана из connect   
+2021-05-31 19:24:07,687    DEBUG ---> getLoginPass вызвана из serverSurvey   
+2021-05-31 19:31:06,788    ERROR ---> 'dict' object has no attribute 'append'   
+2021-05-31 19:31:08,481    DEBUG ---> Запуск client02.py   
+2021-05-31 19:31:08,486    DEBUG ---> Создаём экземпляр Client   
+2021-05-31 19:31:08,490    DEBUG ---> serverSurvey вызвана из main   
+2021-05-31 19:31:08,491    DEBUG ---> connect вызвана из serverSurvey   
+2021-05-31 19:31:08,491    DEBUG ---> sendMSG вызвана из connect   
+2021-05-31 19:31:08,492    DEBUG ---> Отправлено сообщение серверу: 
+{'alert': 'Please connect', 'time': '1622478668.4920123', 'action': 'connect'}   
+2021-05-31 19:31:08,492    DEBUG ---> receiver вызвана из connect   
+2021-05-31 19:35:19,478    DEBUG ---> Запуск client02.py   
+2021-05-31 19:35:19,482    DEBUG ---> Создаём экземпляр Client   
+2021-05-31 19:35:19,487    DEBUG ---> serverSurvey вызвана из main   
+2021-05-31 19:35:19,487    DEBUG ---> connect вызвана из serverSurvey   
+2021-05-31 19:35:19,488    DEBUG ---> sendMSG вызвана из connect   
+2021-05-31 19:35:19,488    DEBUG ---> Отправлено сообщение серверу: 
+{'alert': 'Please connect', 'time': '1622478919.4881535', 'action': 'connect'}   
+2021-05-31 19:35:19,488    DEBUG ---> receiver вызвана из connect   

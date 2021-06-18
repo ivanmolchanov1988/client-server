@@ -1,0 +1,35 @@
+2021-06-04 12:43:17,670    DEBUG ---> Запуск server02.py   
+2021-06-04 12:43:17,675    DEBUG ---> Создали экземпляр Server   
+2021-06-04 12:43:33,328    DEBUG ---> Получили сообщение от клиента{'alert': 'Please connect', 'time': '1622799812.9739745', 'action': 'connect'}   
+2021-06-04 12:43:33,332    DEBUG ---> оправлено сообщение клиенту:
+{'alert': 'Готов к подключению', 'time': '1622799813.3320265', 'action': 'connect', 'response': 200}   
+2021-06-04 12:43:45,041    DEBUG ---> Получили сообщение от клиента{'alert': 'I need registration', 'login': 'Ivan', 'pswrd': 'PASS', 'time': '1622799824.9230952', 'action': 'authorization'}   
+2021-06-04 12:43:45,046    DEBUG ---> оправлено сообщение клиенту:
+{'alert': 'OK', 'time': '1622799825.0465324', 'action': 'authorization', 'response': 200}   
+2021-06-04 12:43:52,718    DEBUG ---> Клиент 5 ('127.0.0.1', 40946) отключился   
+2021-06-04 14:17:53,902    DEBUG ---> Запуск server02.py   
+2021-06-04 14:17:53,917    DEBUG ---> Создали экземпляр Server   
+2021-06-04 14:18:04,362    DEBUG ---> Получили сообщение от клиента{'alert': 'Please connect', 'time': '1622805479.975072', 'action': 'connect'}   
+2021-06-04 14:18:04,366    DEBUG ---> оправлено сообщение клиенту:
+{'alert': 'Готов к подключению', 'time': '1622805484.365993', 'action': 'connect', 'response': 200}   
+2021-06-04 14:18:08,810    DEBUG ---> Получили сообщение от клиента{'alert': 'I need registration', 'login': 'Ivan', 'pswrd': 'PASS', 'time': '1622805488.7911088', 'action': 'authorization'}   
+2021-06-04 14:18:08,815    DEBUG ---> оправлено сообщение клиенту:
+{'alert': 'OK', 'time': '1622805488.8153927', 'action': 'authorization', 'response': 200}   
+2021-06-04 14:18:21,742    DEBUG ---> Клиент 5 ('127.0.0.1', 44168) отключился   
+2021-06-04 14:20:16,274    DEBUG ---> Получили сообщение от клиента{'alert': 'Please connect', 'time': '1622805612.4121535', 'action': 'connect'}   
+2021-06-04 14:20:16,278    DEBUG ---> оправлено сообщение клиенту:
+{'alert': 'Готов к подключению', 'time': '1622805616.27786', 'action': 'connect', 'response': 200}   
+2021-06-04 14:20:21,530    DEBUG ---> Получили сообщение от клиента{'alert': 'I need registration', 'login': 'IVAN', 'pswrd': 'PASS', 'time': '1622805621.3677502', 'action': 'authorization'}   
+2021-06-04 14:20:21,535    DEBUG ---> оправлено сообщение клиенту:
+{'alert': 'Не авторизован', 'time': '1622805621.5356185', 'action': 'authorization', 'response': 401}   
+2021-06-04 18:47:42,661    DEBUG ---> Клиент 6 ('127.0.0.1', 44178) отключился   
+2021-06-04 18:48:03,487    DEBUG ---> Получили сообщение от клиента{'alert': 'Please connect', 'time': '1622821682.3366778', 'action': 'connect'}   
+2021-06-04 18:48:03,490    DEBUG ---> оправлено сообщение клиенту:
+{'alert': 'Готов к подключению', 'time': '1622821683.490346', 'action': 'connect', 'response': 200}   
+2021-06-04 18:48:08,136    DEBUG ---> Получили сообщение от клиента{'alert': 'I need registration', 'login': 'Ivan', 'pswrd': 'PASS', 'time': '1622821687.9589906', 'action': 'authorization'}   
+2021-06-04 18:48:08,141    DEBUG ---> оправлено сообщение клиенту:
+{'alert': 'OK', 'time': '1622821688.1409965', 'action': 'authorization', 'response': 200}   
+2021-06-04 18:48:15,812    DEBUG ---> Получили сообщение от клиента{'alert': 'Create new chat, please', 'chat_name': 'CHAT1', 'chat_creator': None, 'time': '1622821695.8012068', 'action': 'create_chat'}   
+2021-06-04 18:48:15,819    DEBUG ---> оправлено сообщение клиенту:
+{'alert': 'OK', 'time': '1622821695.8191378', 'action': 'create_chat', 'response': 200}   
+2021-06-04 18:48:16,022    ERROR ---> [Errno 107] Transport endpoint is not connected   

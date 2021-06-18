@@ -1,0 +1,79 @@
+2021-06-01 13:18:31,286    DEBUG ---> Запуск client02.py   
+2021-06-01 13:18:31,290    DEBUG ---> Создаём экземпляр Client   
+2021-06-01 13:18:31,294    DEBUG ---> serverSurvey вызвана из main   
+2021-06-01 13:18:31,295    DEBUG ---> connect вызвана из serverSurvey   
+2021-06-01 13:18:31,296    DEBUG ---> sendMSG вызвана из connect   
+2021-06-01 13:18:31,296    DEBUG ---> Отправлено сообщение серверу: 
+{'alert': 'Please connect', 'time': '1622542711.2961102', 'action': 'connect'}   
+2021-06-01 13:18:31,296    DEBUG ---> receiver вызвана из connect   
+2021-06-01 17:35:08,514    DEBUG ---> Запуск client02.py   
+2021-06-01 17:35:08,519    DEBUG ---> Создаём экземпляр Client   
+2021-06-01 17:35:08,523    DEBUG ---> serverSurvey вызвана из main   
+2021-06-01 17:35:08,524    DEBUG ---> connect вызвана из serverSurvey   
+2021-06-01 17:35:08,524    DEBUG ---> sendMSG вызвана из connect   
+2021-06-01 17:35:08,524    DEBUG ---> Отправлено сообщение серверу: 
+{'alert': 'Please connect', 'time': '1622558108.5247097', 'action': 'connect'}   
+2021-06-01 17:35:08,525    DEBUG ---> receiver вызвана из connect   
+2021-06-01 17:36:22,257    DEBUG ---> Запуск client02.py   
+2021-06-01 17:36:22,262    DEBUG ---> Создаём экземпляр Client   
+2021-06-01 17:36:22,267    DEBUG ---> serverSurvey вызвана из main   
+2021-06-01 17:36:22,267    DEBUG ---> connect вызвана из serverSurvey   
+2021-06-01 17:36:22,268    DEBUG ---> sendMSG вызвана из connect   
+2021-06-01 17:36:22,268    DEBUG ---> Отправлено сообщение серверу: 
+{'alert': 'Please connect', 'time': '1622558182.268336', 'action': 'connect'}   
+2021-06-01 17:36:22,269    DEBUG ---> receiver вызвана из connect   
+2021-06-01 17:40:17,188    DEBUG ---> Запуск client02.py   
+2021-06-01 17:40:17,193    DEBUG ---> Создаём экземпляр Client   
+2021-06-01 17:40:17,197    DEBUG ---> serverSurvey вызвана из main   
+2021-06-01 17:40:17,198    DEBUG ---> connect вызвана из serverSurvey   
+2021-06-01 17:40:17,198    DEBUG ---> sendMSG вызвана из connect   
+2021-06-01 17:40:17,198    DEBUG ---> Отправлено сообщение серверу: 
+{'alert': 'Please connect', 'time': '1622558417.1987882', 'action': 'connect'}   
+2021-06-01 17:40:17,199    DEBUG ---> receiver вызвана из connect   
+2021-06-01 17:40:20,106    DEBUG ---> Получено сообщение от сервера: 
+{'response': 200, 'alert': 'Готов к подключению', 'time': '1622558420.106413', 'action': 'connect'}   
+2021-06-01 17:48:50,449    DEBUG ---> Запуск client02.py   
+2021-06-01 17:48:50,453    DEBUG ---> Создаём экземпляр Client   
+2021-06-01 17:48:50,458    DEBUG ---> serverSurvey вызвана из main   
+2021-06-01 17:48:50,458    DEBUG ---> connect вызвана из serverSurvey   
+2021-06-01 17:48:50,459    DEBUG ---> sendMSG вызвана из connect   
+2021-06-01 17:48:50,459    DEBUG ---> Отправлено сообщение серверу: 
+{'alert': 'Please connect', 'time': '1622558930.4591458', 'action': 'connect'}   
+2021-06-01 17:48:50,459    DEBUG ---> receiver вызвана из connect   
+2021-06-01 17:48:52,792    DEBUG ---> Получено сообщение от сервера: 
+{'response': 200, 'alert': 'Готов к подключению', 'time': '1622558932.791992', 'action': 'connect'}   
+2021-06-01 17:48:52,792    DEBUG ---> aut вызвана из serverSurvey   
+2021-06-01 17:49:09,144    DEBUG ---> reg вызвана из aut   
+2021-06-01 17:49:13,034    DEBUG ---> aut вызвана из reg   
+2021-06-01 18:31:05,149    DEBUG ---> Запуск client02.py   
+2021-06-01 18:31:05,153    DEBUG ---> Создаём экземпляр Client   
+2021-06-01 18:31:05,158    DEBUG ---> serverSurvey вызвана из main   
+2021-06-01 18:31:05,158    DEBUG ---> connect вызвана из serverSurvey   
+2021-06-01 18:31:05,159    DEBUG ---> sendMSG вызвана из connect   
+2021-06-01 18:31:05,159    DEBUG ---> Отправлено сообщение серверу: 
+{'alert': 'Please connect', 'time': '1622561465.1593459', 'action': 'connect'}   
+2021-06-01 18:31:05,160    DEBUG ---> receiver вызвана из connect   
+2021-06-01 18:31:08,301    DEBUG ---> Получено сообщение от сервера: 
+{'alert': 'Готов к подключению', 'time': '1622561468.3005557', 'action': 'connect'}   
+2021-06-01 18:46:59,553    DEBUG ---> Запуск client02.py   
+2021-06-01 18:46:59,558    DEBUG ---> Создаём экземпляр Client   
+2021-06-01 18:46:59,562    DEBUG ---> serverSurvey вызвана из main   
+2021-06-01 18:46:59,563    DEBUG ---> connect вызвана из serverSurvey   
+2021-06-01 18:46:59,563    DEBUG ---> sendMSG вызвана из connect   
+2021-06-01 18:46:59,563    DEBUG ---> Отправлено сообщение серверу: 
+{'alert': 'Please connect', 'time': '1622562419.5637162', 'action': 'connect'}   
+2021-06-01 18:46:59,564    DEBUG ---> receiver вызвана из connect   
+2021-06-01 18:47:01,934    DEBUG ---> Получено сообщение от сервера: 
+{'alert': 'Готов к подключению', 'time': '1622562421.9346614', 'action': 'connect', 'response': 200}   
+2021-06-01 18:47:01,936    DEBUG ---> aut вызвана из serverSurvey   
+2021-06-01 19:04:41,988    DEBUG ---> Запуск client02.py   
+2021-06-01 19:04:41,992    DEBUG ---> Создаём экземпляр Client   
+2021-06-01 19:04:41,997    DEBUG ---> serverSurvey вызвана из main   
+2021-06-01 19:04:41,997    DEBUG ---> connect вызвана из serverSurvey   
+2021-06-01 19:04:41,998    DEBUG ---> sendMSG вызвана из connect   
+2021-06-01 19:04:42,023    DEBUG ---> Отправлено сообщение серверу: 
+{'alert': 'Please connect', 'time': '1622563481.998556', 'action': 'connect'}   
+2021-06-01 19:04:42,023    DEBUG ---> receiver вызвана из connect   
+2021-06-01 19:04:42,371    DEBUG ---> Получено сообщение от сервера: 
+{'alert': 'Готов к подключению', 'time': '1622563482.3711045', 'action': 'connect', 'response': 200}   
+2021-06-01 19:04:42,373    DEBUG ---> aut вызвана из serverSurvey   

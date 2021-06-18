@@ -1,0 +1,78 @@
+2021-06-04 12:43:32,963    DEBUG ---> Запуск client02.py   
+2021-06-04 12:43:32,968    DEBUG ---> Создаём экземпляр Client   
+2021-06-04 12:43:32,972    DEBUG ---> serverSurvey вызвана из main   
+2021-06-04 12:43:32,973    DEBUG ---> connect вызвана из serverSurvey   
+2021-06-04 12:43:32,973    DEBUG ---> sendMSG вызвана из connect   
+2021-06-04 12:43:32,995    DEBUG ---> Отправлено сообщение серверу: 
+{'alert': 'Please connect', 'time': '1622799812.9739745', 'action': 'connect'}   
+2021-06-04 12:43:32,996    DEBUG ---> receiver вызвана из connect   
+2021-06-04 12:43:33,332    DEBUG ---> Получено сообщение от сервера: 
+{'alert': 'Готов к подключению', 'time': '1622799813.3320265', 'action': 'connect', 'response': 200}   
+2021-06-04 12:43:33,334    DEBUG ---> aut вызвана из serverSurvey   
+2021-06-04 12:43:44,922    DEBUG ---> sendMSG вызвана из aut   
+2021-06-04 12:43:44,923    DEBUG ---> Отправлено сообщение серверу: 
+{'alert': 'I need registration', 'login': 'Ivan', 'pswrd': 'PASS', 'time': '1622799824.9230952', 'action': 'authorization'}   
+2021-06-04 12:43:44,925    DEBUG ---> receiver вызвана из aut   
+2021-06-04 12:43:45,046    DEBUG ---> Получено сообщение от сервера: 
+{'alert': 'OK', 'time': '1622799825.0465324', 'action': 'authorization', 'response': 200}   
+2021-06-04 12:43:45,049    DEBUG ---> create_chat вызвана из serverSurvey   
+2021-06-04 14:17:59,923    DEBUG ---> Запуск client02.py   
+2021-06-04 14:17:59,957    DEBUG ---> Создаём экземпляр Client   
+2021-06-04 14:17:59,972    DEBUG ---> serverSurvey вызвана из main   
+2021-06-04 14:17:59,973    DEBUG ---> connect вызвана из serverSurvey   
+2021-06-04 14:17:59,974    DEBUG ---> sendMSG вызвана из connect   
+2021-06-04 14:17:59,989    DEBUG ---> Отправлено сообщение серверу: 
+{'alert': 'Please connect', 'time': '1622805479.975072', 'action': 'connect'}   
+2021-06-04 14:17:59,990    DEBUG ---> receiver вызвана из connect   
+2021-06-04 14:18:04,366    DEBUG ---> Получено сообщение от сервера: 
+{'alert': 'Готов к подключению', 'time': '1622805484.365993', 'action': 'connect', 'response': 200}   
+2021-06-04 14:18:04,368    DEBUG ---> aut вызвана из serverSurvey   
+2021-06-04 14:18:08,790    DEBUG ---> sendMSG вызвана из aut   
+2021-06-04 14:18:08,791    DEBUG ---> Отправлено сообщение серверу: 
+{'alert': 'I need registration', 'login': 'Ivan', 'pswrd': 'PASS', 'time': '1622805488.7911088', 'action': 'authorization'}   
+2021-06-04 14:18:08,793    DEBUG ---> receiver вызвана из aut   
+2021-06-04 14:18:08,815    DEBUG ---> Получено сообщение от сервера: 
+{'alert': 'OK', 'time': '1622805488.8153927', 'action': 'authorization', 'response': 200}   
+2021-06-04 14:18:08,817    DEBUG ---> conditions вызвана из serverSurvey   
+2021-06-04 14:18:12,487    DEBUG ---> create_chat вызвана из conditions   
+2021-06-04 14:18:21,580    DEBUG ---> sendMSG вызвана из conditions   
+2021-06-04 14:20:12,402    DEBUG ---> Запуск client02.py   
+2021-06-04 14:20:12,406    DEBUG ---> Создаём экземпляр Client   
+2021-06-04 14:20:12,411    DEBUG ---> serverSurvey вызвана из main   
+2021-06-04 14:20:12,411    DEBUG ---> connect вызвана из serverSurvey   
+2021-06-04 14:20:12,412    DEBUG ---> sendMSG вызвана из connect   
+2021-06-04 14:20:12,412    DEBUG ---> Отправлено сообщение серверу: 
+{'alert': 'Please connect', 'time': '1622805612.4121535', 'action': 'connect'}   
+2021-06-04 14:20:12,412    DEBUG ---> receiver вызвана из connect   
+2021-06-04 14:20:16,278    DEBUG ---> Получено сообщение от сервера: 
+{'alert': 'Готов к подключению', 'time': '1622805616.27786', 'action': 'connect', 'response': 200}   
+2021-06-04 14:20:16,280    DEBUG ---> aut вызвана из serverSurvey   
+2021-06-04 14:20:21,367    DEBUG ---> sendMSG вызвана из aut   
+2021-06-04 14:20:21,368    DEBUG ---> Отправлено сообщение серверу: 
+{'alert': 'I need registration', 'login': 'IVAN', 'pswrd': 'PASS', 'time': '1622805621.3677502', 'action': 'authorization'}   
+2021-06-04 14:20:21,370    DEBUG ---> receiver вызвана из aut   
+2021-06-04 14:20:21,536    DEBUG ---> Получено сообщение от сервера: 
+{'alert': 'Не авторизован', 'time': '1622805621.5356185', 'action': 'authorization', 'response': 401}   
+2021-06-04 14:20:21,538    DEBUG ---> receiver вызвана из aut   
+2021-06-04 18:48:02,326    DEBUG ---> Запуск client02.py   
+2021-06-04 18:48:02,331    DEBUG ---> Создаём экземпляр Client   
+2021-06-04 18:48:02,335    DEBUG ---> serverSurvey вызвана из main   
+2021-06-04 18:48:02,335    DEBUG ---> connect вызвана из serverSurvey   
+2021-06-04 18:48:02,336    DEBUG ---> sendMSG вызвана из connect   
+2021-06-04 18:48:02,336    DEBUG ---> Отправлено сообщение серверу: 
+{'alert': 'Please connect', 'time': '1622821682.3366778', 'action': 'connect'}   
+2021-06-04 18:48:02,337    DEBUG ---> receiver вызвана из connect   
+2021-06-04 18:48:03,490    DEBUG ---> Получено сообщение от сервера: 
+{'alert': 'Готов к подключению', 'time': '1622821683.490346', 'action': 'connect', 'response': 200}   
+2021-06-04 18:48:03,492    DEBUG ---> aut вызвана из serverSurvey   
+2021-06-04 18:48:07,958    DEBUG ---> sendMSG вызвана из aut   
+2021-06-04 18:48:07,959    DEBUG ---> Отправлено сообщение серверу: 
+{'alert': 'I need registration', 'login': 'Ivan', 'pswrd': 'PASS', 'time': '1622821687.9589906', 'action': 'authorization'}   
+2021-06-04 18:48:07,961    DEBUG ---> receiver вызвана из aut   
+2021-06-04 18:48:08,141    DEBUG ---> Получено сообщение от сервера: 
+{'alert': 'OK', 'time': '1622821688.1409965', 'action': 'authorization', 'response': 200}   
+2021-06-04 18:48:08,143    DEBUG ---> conditions вызвана из serverSurvey   
+2021-06-04 18:48:09,895    DEBUG ---> create_chat вызвана из conditions   
+2021-06-04 18:48:15,800    DEBUG ---> sendMSG вызвана из conditions   
+2021-06-04 18:48:15,801    DEBUG ---> Отправлено сообщение серверу: 
+{'alert': 'Create new chat, please', 'chat_name': 'CHAT1', 'chat_creator': None, 'time': '1622821695.8012068', 'action': 'create_chat'}   

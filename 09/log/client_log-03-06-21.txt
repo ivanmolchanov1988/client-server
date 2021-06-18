@@ -1,0 +1,178 @@
+2021-06-03 12:16:06,941    DEBUG ---> Запуск client02.py   
+2021-06-03 12:16:06,945    DEBUG ---> Создаём экземпляр Client   
+2021-06-03 12:16:06,950    DEBUG ---> serverSurvey вызвана из main   
+2021-06-03 12:16:06,950    DEBUG ---> connect вызвана из serverSurvey   
+2021-06-03 12:16:06,951    DEBUG ---> sendMSG вызвана из connect   
+2021-06-03 12:16:06,967    DEBUG ---> Отправлено сообщение серверу: 
+{'alert': 'Please connect', 'time': '1622711766.9512465', 'action': 'connect'}   
+2021-06-03 12:16:06,968    DEBUG ---> receiver вызвана из connect   
+2021-06-03 12:16:10,948    DEBUG ---> Получено сообщение от сервера: 
+{'alert': 'Готов к подключению', 'time': '1622711770.9482784', 'action': 'connect', 'response': 200}   
+2021-06-03 12:16:10,949    DEBUG ---> aut вызвана из serverSurvey   
+2021-06-03 12:16:14,079    DEBUG ---> reg вызвана из aut   
+2021-06-03 12:16:17,016    DEBUG ---> sendMSG вызвана из reg   
+2021-06-03 12:16:17,017    DEBUG ---> Отправлено сообщение серверу: 
+{'alert': 'I need registration', 'login': 'iii', 'pswrd': 'iii', 'time': '1622711777.0171309', 'action': 'registration'}   
+2021-06-03 12:16:17,019    DEBUG ---> receiver вызвана из reg   
+2021-06-03 12:16:17,317    DEBUG ---> Получено сообщение от сервера: 
+{'alert': 'Пользователь создан', 'time': '1622711777.317582', 'action': 'registration', 'response': 200}   
+2021-06-03 12:16:17,320    DEBUG ---> aut вызвана из reg   
+2021-06-03 12:16:20,728    DEBUG ---> sendMSG вызвана из aut   
+2021-06-03 12:16:20,820    DEBUG ---> aut вызвана из aut   
+2021-06-03 13:51:13,180    DEBUG ---> Запуск client02.py   
+2021-06-03 13:51:13,184    DEBUG ---> Создаём экземпляр Client   
+2021-06-03 13:51:13,189    DEBUG ---> serverSurvey вызвана из main   
+2021-06-03 13:51:13,189    DEBUG ---> connect вызвана из serverSurvey   
+2021-06-03 13:51:13,190    DEBUG ---> sendMSG вызвана из connect   
+2021-06-03 13:51:13,190    DEBUG ---> Отправлено сообщение серверу: 
+{'alert': 'Please connect', 'time': '1622717473.1903067', 'action': 'connect'}   
+2021-06-03 13:51:13,190    DEBUG ---> receiver вызвана из connect   
+2021-06-03 13:51:15,938    DEBUG ---> Получено сообщение от сервера: 
+{'alert': 'Готов к подключению', 'time': '1622717475.9378486', 'action': 'connect', 'response': 200}   
+2021-06-03 13:51:15,938    DEBUG ---> aut вызвана из serverSurvey   
+2021-06-03 13:51:21,319    DEBUG ---> reg вызвана из aut   
+2021-06-03 13:51:28,330    DEBUG ---> sendMSG вызвана из reg   
+2021-06-03 13:51:28,331    DEBUG ---> Отправлено сообщение серверу: 
+{'alert': 'I need registration', 'login': 'Ivan', 'pswrd': 'PASS', 'time': '1622717488.3315022', 'action': 'registration'}   
+2021-06-03 13:51:28,333    DEBUG ---> receiver вызвана из reg   
+2021-06-03 13:51:28,461    DEBUG ---> Получено сообщение от сервера: 
+{'alert': 'Логин занят', 'time': '1622717488.4615324', 'action': 'registration', 'response': 409}   
+2021-06-03 13:51:28,464    DEBUG ---> receiver вызвана из reg   
+2021-06-03 13:56:38,895    DEBUG ---> Запуск client02.py   
+2021-06-03 13:56:38,900    DEBUG ---> Создаём экземпляр Client   
+2021-06-03 13:56:38,904    DEBUG ---> serverSurvey вызвана из main   
+2021-06-03 13:56:38,904    DEBUG ---> connect вызвана из serverSurvey   
+2021-06-03 13:56:38,905    DEBUG ---> sendMSG вызвана из connect   
+2021-06-03 13:56:38,905    DEBUG ---> Отправлено сообщение серверу: 
+{'alert': 'Please connect', 'time': '1622717798.9056747', 'action': 'connect'}   
+2021-06-03 13:56:38,906    DEBUG ---> receiver вызвана из connect   
+2021-06-03 13:56:40,571    DEBUG ---> Получено сообщение от сервера: 
+{'alert': 'Готов к подключению', 'time': '1622717800.5711944', 'action': 'connect', 'response': 200}   
+2021-06-03 13:56:40,571    DEBUG ---> aut вызвана из serverSurvey   
+2021-06-03 13:56:58,907    DEBUG ---> sendMSG вызвана из aut   
+2021-06-03 13:56:58,911    DEBUG ---> aut вызвана из aut   
+2021-06-03 13:57:56,036    DEBUG ---> Запуск client02.py   
+2021-06-03 13:57:56,040    DEBUG ---> Создаём экземпляр Client   
+2021-06-03 13:57:56,044    DEBUG ---> serverSurvey вызвана из main   
+2021-06-03 13:57:56,045    DEBUG ---> connect вызвана из serverSurvey   
+2021-06-03 13:57:56,045    DEBUG ---> sendMSG вызвана из connect   
+2021-06-03 13:57:56,045    DEBUG ---> Отправлено сообщение серверу: 
+{'alert': 'Please connect', 'time': '1622717876.0458155', 'action': 'connect'}   
+2021-06-03 13:57:56,046    DEBUG ---> receiver вызвана из connect   
+2021-06-03 13:57:59,780    DEBUG ---> Получено сообщение от сервера: 
+{'alert': 'Готов к подключению', 'time': '1622717879.780331', 'action': 'connect', 'response': 200}   
+2021-06-03 13:57:59,781    DEBUG ---> aut вызвана из serverSurvey   
+2021-06-03 13:58:21,624    DEBUG ---> sendMSG вызвана из aut   
+2021-06-03 13:58:21,632    DEBUG ---> aut вызвана из aut   
+2021-06-03 13:58:23,120    DEBUG ---> reg вызвана из aut   
+2021-06-03 13:58:29,793    DEBUG ---> sendMSG вызвана из reg   
+2021-06-03 13:58:29,794    DEBUG ---> Отправлено сообщение серверу: 
+{'alert': 'I need registration', 'login': 'Ivan', 'pswrd': 'ppp', 'time': '1622717909.794253', 'action': 'registration'}   
+2021-06-03 13:58:29,797    DEBUG ---> receiver вызвана из reg   
+2021-06-03 13:58:29,864    DEBUG ---> Получено сообщение от сервера: 
+{'alert': 'Логин занят', 'time': '1622717909.8644314', 'action': 'registration', 'response': 409}   
+2021-06-03 13:58:29,867    DEBUG ---> reg вызвана из reg   
+2021-06-03 13:58:35,745    DEBUG ---> aut вызвана из reg   
+2021-06-03 13:58:40,035    DEBUG ---> sendMSG вызвана из aut   
+2021-06-03 13:58:40,037    DEBUG ---> aut вызвана из aut   
+2021-06-03 13:59:40,906    DEBUG ---> Запуск client02.py   
+2021-06-03 13:59:40,911    DEBUG ---> Создаём экземпляр Client   
+2021-06-03 13:59:40,915    DEBUG ---> serverSurvey вызвана из main   
+2021-06-03 13:59:40,915    DEBUG ---> connect вызвана из serverSurvey   
+2021-06-03 13:59:40,916    DEBUG ---> sendMSG вызвана из connect   
+2021-06-03 13:59:40,916    DEBUG ---> Отправлено сообщение серверу: 
+{'alert': 'Please connect', 'time': '1622717980.916522', 'action': 'connect'}   
+2021-06-03 13:59:40,917    DEBUG ---> receiver вызвана из connect   
+2021-06-03 13:59:42,662    DEBUG ---> Получено сообщение от сервера: 
+{'alert': 'Готов к подключению', 'time': '1622717982.6622036', 'action': 'connect', 'response': 200}   
+2021-06-03 13:59:42,662    DEBUG ---> aut вызвана из serverSurvey   
+2021-06-03 13:59:53,899    DEBUG ---> sendMSG вызвана из aut   
+2021-06-03 13:59:53,906    DEBUG ---> aut вызвана из aut   
+2021-06-03 14:44:51,240    DEBUG ---> Запуск client02.py   
+2021-06-03 14:44:51,245    DEBUG ---> Создаём экземпляр Client   
+2021-06-03 14:44:51,249    DEBUG ---> serverSurvey вызвана из main   
+2021-06-03 14:44:51,249    DEBUG ---> connect вызвана из serverSurvey   
+2021-06-03 14:44:51,250    DEBUG ---> sendMSG вызвана из connect   
+2021-06-03 14:44:51,250    DEBUG ---> Отправлено сообщение серверу: 
+{'alert': 'Please connect', 'time': '1622720691.2508004', 'action': 'connect'}   
+2021-06-03 14:44:51,251    DEBUG ---> receiver вызвана из connect   
+2021-06-03 14:44:55,411    DEBUG ---> Получено сообщение от сервера: 
+{'alert': 'Готов к подключению', 'time': '1622720695.411578', 'action': 'connect', 'response': 200}   
+2021-06-03 14:44:55,412    DEBUG ---> aut вызвана из serverSurvey   
+2021-06-03 14:45:01,671    DEBUG ---> sendMSG вызвана из aut   
+2021-06-03 14:45:01,674    DEBUG ---> aut вызвана из aut   
+2021-06-03 14:47:51,836    DEBUG ---> Запуск client02.py   
+2021-06-03 14:47:51,840    DEBUG ---> Создаём экземпляр Client   
+2021-06-03 14:47:51,845    DEBUG ---> serverSurvey вызвана из main   
+2021-06-03 14:47:51,845    DEBUG ---> connect вызвана из serverSurvey   
+2021-06-03 14:47:51,846    DEBUG ---> sendMSG вызвана из connect   
+2021-06-03 14:47:51,846    DEBUG ---> Отправлено сообщение серверу: 
+{'alert': 'Please connect', 'time': '1622720871.8461795', 'action': 'connect'}   
+2021-06-03 14:47:51,846    DEBUG ---> receiver вызвана из connect   
+2021-06-03 14:47:52,304    DEBUG ---> Получено сообщение от сервера: 
+{'alert': 'Готов к подключению', 'time': '1622720872.304747', 'action': 'connect', 'response': 200}   
+2021-06-03 14:47:52,305    DEBUG ---> aut вызвана из serverSurvey   
+2021-06-03 14:47:57,540    DEBUG ---> sendMSG вызвана из aut   
+2021-06-03 14:47:57,548    DEBUG ---> aut вызвана из aut   
+2021-06-03 14:49:41,088    DEBUG ---> Запуск client02.py   
+2021-06-03 14:49:41,092    DEBUG ---> Создаём экземпляр Client   
+2021-06-03 14:49:41,096    DEBUG ---> serverSurvey вызвана из main   
+2021-06-03 14:49:41,097    DEBUG ---> connect вызвана из serverSurvey   
+2021-06-03 14:49:41,097    DEBUG ---> sendMSG вызвана из connect   
+2021-06-03 14:49:41,098    DEBUG ---> Отправлено сообщение серверу: 
+{'alert': 'Please connect', 'time': '1622720981.0980418', 'action': 'connect'}   
+2021-06-03 14:49:41,098    DEBUG ---> receiver вызвана из connect   
+2021-06-03 14:49:43,528    DEBUG ---> Получено сообщение от сервера: 
+{'alert': 'Готов к подключению', 'time': '1622720983.528093', 'action': 'connect', 'response': 200}   
+2021-06-03 14:49:43,528    DEBUG ---> aut вызвана из serverSurvey   
+2021-06-03 14:49:47,282    DEBUG ---> sendMSG вызвана из aut   
+2021-06-03 14:49:47,285    DEBUG ---> aut вызвана из aut   
+2021-06-03 14:50:46,667    DEBUG ---> Запуск client02.py   
+2021-06-03 14:50:46,672    DEBUG ---> Создаём экземпляр Client   
+2021-06-03 14:50:46,676    DEBUG ---> serverSurvey вызвана из main   
+2021-06-03 14:50:46,676    DEBUG ---> connect вызвана из serverSurvey   
+2021-06-03 14:50:46,677    DEBUG ---> sendMSG вызвана из connect   
+2021-06-03 14:50:46,677    DEBUG ---> Отправлено сообщение серверу: 
+{'alert': 'Please connect', 'time': '1622721046.677557', 'action': 'connect'}   
+2021-06-03 14:50:46,678    DEBUG ---> receiver вызвана из connect   
+2021-06-03 14:50:47,627    DEBUG ---> Получено сообщение от сервера: 
+{'alert': 'Готов к подключению', 'time': '1622721047.6277704', 'action': 'connect', 'response': 200}   
+2021-06-03 14:50:47,628    DEBUG ---> aut вызвана из serverSurvey   
+2021-06-03 14:50:51,640    DEBUG ---> sendMSG вызвана из aut   
+2021-06-03 14:50:51,643    DEBUG ---> aut вызвана из aut   
+2021-06-03 14:56:06,509    DEBUG ---> Запуск client02.py   
+2021-06-03 14:56:06,514    DEBUG ---> Создаём экземпляр Client   
+2021-06-03 14:56:06,518    DEBUG ---> serverSurvey вызвана из main   
+2021-06-03 14:56:06,519    DEBUG ---> connect вызвана из serverSurvey   
+2021-06-03 14:56:06,519    DEBUG ---> sendMSG вызвана из connect   
+2021-06-03 14:56:06,520    DEBUG ---> Отправлено сообщение серверу: 
+{'alert': 'Please connect', 'time': '1622721366.5199971', 'action': 'connect'}   
+2021-06-03 14:56:06,520    DEBUG ---> receiver вызвана из connect   
+2021-06-03 14:56:08,860    DEBUG ---> Получено сообщение от сервера: 
+{'alert': 'Готов к подключению', 'time': '1622721368.8601983', 'action': 'connect', 'response': 200}   
+2021-06-03 14:56:08,860    DEBUG ---> aut вызвана из serverSurvey   
+2021-06-03 14:56:13,263    DEBUG ---> sendMSG вызвана из aut   
+2021-06-03 14:56:13,263    DEBUG ---> Отправлено сообщение серверу: 
+{'alert': 'I need registration', 'login': 'Ivan', 'pswrd': 'rrr', 'time': '1622721373.2635992', 'action': 'authorization'}   
+2021-06-03 14:56:13,265    DEBUG ---> receiver вызвана из aut   
+2021-06-03 14:56:13,306    DEBUG ---> Получено сообщение от сервера: 
+{'alert': 'Неверный пароль', 'time': '1622721373.306432', 'action': 'authorization', 'response': 409}   
+2021-06-03 14:56:13,309    DEBUG ---> receiver вызвана из aut   
+2021-06-03 14:57:46,514    DEBUG ---> Запуск client02.py   
+2021-06-03 14:57:46,519    DEBUG ---> Создаём экземпляр Client   
+2021-06-03 14:57:46,523    DEBUG ---> serverSurvey вызвана из main   
+2021-06-03 14:57:46,523    DEBUG ---> connect вызвана из serverSurvey   
+2021-06-03 14:57:46,524    DEBUG ---> sendMSG вызвана из connect   
+2021-06-03 14:57:46,524    DEBUG ---> Отправлено сообщение серверу: 
+{'alert': 'Please connect', 'time': '1622721466.5245247', 'action': 'connect'}   
+2021-06-03 14:57:46,525    DEBUG ---> receiver вызвана из connect   
+2021-06-03 14:57:47,915    DEBUG ---> Получено сообщение от сервера: 
+{'alert': 'Готов к подключению', 'time': '1622721467.915345', 'action': 'connect', 'response': 200}   
+2021-06-03 14:57:47,916    DEBUG ---> aut вызвана из serverSurvey   
+2021-06-03 14:57:51,627    DEBUG ---> sendMSG вызвана из aut   
+2021-06-03 14:57:51,628    DEBUG ---> Отправлено сообщение серверу: 
+{'alert': 'I need registration', 'login': 'Ivan', 'pswrd': 'ttt', 'time': '1622721471.628473', 'action': 'authorization'}   
+2021-06-03 14:57:51,630    DEBUG ---> receiver вызвана из aut   
+2021-06-03 14:57:51,755    DEBUG ---> Получено сообщение от сервера: 
+{'alert': 'Неверный пароль', 'time': '1622721471.7554183', 'action': 'authorization', 'response': 409}   
+2021-06-03 14:57:51,758    DEBUG ---> receiver вызвана из aut   
